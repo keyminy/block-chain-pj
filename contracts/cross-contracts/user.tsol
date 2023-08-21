@@ -1,0 +1,33 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+import "bank.tsol";
+
+contract user {
+    // user가 소유한 돈 (대출하면 추가)
+    uint public money;
+
+    bank public Bank;
+
+    event BorrowedMoney(address user, uint _amount);
+    event LoanRepay(address user, uint repayAmount);
+    constructor(address _bank) public {
+        tvm.accept();
+        Bank = bank(_bank);
+    }
+
+    function borrowMoney(uint _amount) external {
+        tvm.accept();
+        Bank.loan(_amount);
+        money += _amount;
+        emit BorrowedMoney(msg.sender, _amount);
+    }
+
+    function repayLoan() external {
+        tvm.accept();
+        require(money > 0, 1005);
+        Bank.repaying();
+        uint repayAmount = money;
+        money = 0;
+        emit LoanRepay(msg.sender, repayAmount);
+    }
+}

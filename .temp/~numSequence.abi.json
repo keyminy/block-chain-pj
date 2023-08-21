@@ -1,0 +1,58 @@
+{
+	"ABI version": 2,
+	"version": "2.3",
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"len","type":"uint8"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "check",
+			"inputs": [
+				{"name":"inputNum","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "arr",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"arr","type":"uint8[]"}
+			]
+		},
+		{
+			"name": "sum",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"sum","type":"uint16"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+		{
+			"name": "complete",
+			"inputs": [
+				{"name":"arr","type":"uint8[]"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"arr","type":"uint8[]"},
+		{"name":"sum","type":"uint16"}
+	]
+}

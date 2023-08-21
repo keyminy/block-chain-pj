@@ -1,0 +1,1466 @@
+{
+  "map": {
+    "092842794b16c13579197c350f3032d5f7c8d9ce8ac22a38454b6dfe6082fa46": {
+      "0": {
+        "filename": "numSequence.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "numSequence.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "numSequence.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "numSequence.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "numSequence.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "numSequence.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "numSequence.code",
+        "line": 12
+      },
+      "96": {
+        "filename": "numSequence.code",
+        "line": 13
+      },
+      "104": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 12
+      },
+      "120": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 13
+      },
+      "128": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 13
+      },
+      "144": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 14
+      },
+      "152": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 14
+      },
+      "160": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 14
+      },
+      "176": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 14
+      },
+      "184": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 14
+      },
+      "200": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "216": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "232": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "248": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "256": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "272": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "280": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "296": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "304": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "312": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "328": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "344": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "360": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "376": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 15
+      },
+      "392": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 16
+      },
+      "400": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 16
+      },
+      "416": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 16
+      },
+      "432": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 16
+      },
+      "448": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 16
+      },
+      "464": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 16
+      },
+      "480": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 16
+      },
+      "504": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 16
+      },
+      "520": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 16
+      },
+      "528": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 16
+      },
+      "544": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 16
+      },
+      "560": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 14
+      },
+      "568": {
+        "filename": "numSequence.code",
+        "line": 57
+      },
+      "576": {
+        "filename": "numSequence.code",
+        "line": 58
+      },
+      "584": {
+        "filename": "numSequence.code",
+        "line": 60
+      },
+      "600": {
+        "filename": "numSequence.code",
+        "line": 63
+      }
+    },
+    "28e899f097d7418e06c400833b3deb874883ca9d37f8a6a658f1df16b0362722": {
+      "0": {
+        "filename": "numSequence.code",
+        "line": 269
+      },
+      "16": {
+        "filename": "numSequence.code",
+        "line": 270
+      },
+      "32": {
+        "filename": "numSequence.code",
+        "line": 271
+      },
+      "48": {
+        "filename": "numSequence.code",
+        "line": 272
+      },
+      "64": {
+        "filename": "numSequence.code",
+        "line": 273
+      },
+      "72": {
+        "filename": "numSequence.code",
+        "line": 274
+      },
+      "88": {
+        "filename": "numSequence.code",
+        "line": 275
+      },
+      "104": {
+        "filename": "numSequence.code",
+        "line": 276
+      },
+      "120": {
+        "filename": "numSequence.code",
+        "line": 277
+      },
+      "128": {
+        "filename": "numSequence.code",
+        "line": 278
+      },
+      "144": {
+        "filename": "numSequence.code",
+        "line": 279
+      },
+      "152": {
+        "filename": "numSequence.code",
+        "line": 280
+      },
+      "168": {
+        "filename": "numSequence.code",
+        "line": 281
+      },
+      "184": {
+        "filename": "numSequence.code",
+        "line": 282
+      },
+      "200": {
+        "filename": "numSequence.code",
+        "line": 283
+      },
+      "208": {
+        "filename": "numSequence.code",
+        "line": 284
+      }
+    },
+    "328ebf1dc089b150d403c3eff21c2f0ecb349870e72dd7a9f892bd6c7f3e3f4f": {
+      "0": {
+        "filename": "numSequence.code",
+        "line": 413
+      },
+      "8": {
+        "filename": "numSequence.code",
+        "line": 414
+      },
+      "16": {
+        "filename": "numSequence.code",
+        "line": 415
+      },
+      "32": {
+        "filename": "numSequence.code",
+        "line": 418
+      },
+      "48": {
+        "filename": "numSequence.code",
+        "line": 419
+      },
+      "56": {
+        "filename": "numSequence.code",
+        "line": 420
+      },
+      "72": {
+        "filename": "numSequence.code",
+        "line": 421
+      },
+      "232": {
+        "filename": "numSequence.code",
+        "line": 422
+      },
+      "240": {
+        "filename": "numSequence.code",
+        "line": 423
+      },
+      "248": {
+        "filename": "numSequence.code",
+        "line": 424
+      },
+      "264": {
+        "filename": "numSequence.code",
+        "line": 425
+      },
+      "272": {
+        "filename": "numSequence.code",
+        "line": 426
+      },
+      "280": {
+        "filename": "numSequence.code",
+        "line": 427
+      },
+      "296": {
+        "filename": "numSequence.code",
+        "line": 429
+      },
+      "304": {
+        "filename": "numSequence.code",
+        "line": 430
+      }
+    },
+    "3c95be0415f6a1c9be8b6668384523b94457485f1e13bc3b9aeffb879a0e9393": {
+      "0": {
+        "filename": "numSequence.code",
+        "line": 335
+      },
+      "16": {
+        "filename": "numSequence.code",
+        "line": 336
+      },
+      "24": {
+        "filename": "numSequence.code",
+        "line": 337
+      },
+      "40": {
+        "filename": "numSequence.code",
+        "line": 338
+      },
+      "56": {
+        "filename": "numSequence.code",
+        "line": 339
+      },
+      "72": {
+        "filename": "numSequence.code",
+        "line": 340
+      },
+      "80": {
+        "filename": "numSequence.code",
+        "line": 341
+      },
+      "96": {
+        "filename": "numSequence.code",
+        "line": 344
+      },
+      "112": {
+        "filename": "numSequence.code",
+        "line": 345
+      },
+      "120": {
+        "filename": "numSequence.code",
+        "line": 346
+      },
+      "136": {
+        "filename": "numSequence.code",
+        "line": 347
+      },
+      "152": {
+        "filename": "numSequence.code",
+        "line": 348
+      },
+      "168": {
+        "filename": "numSequence.code",
+        "line": 349
+      },
+      "176": {
+        "filename": "numSequence.code",
+        "line": 350
+      },
+      "192": {
+        "filename": "numSequence.code",
+        "line": 351
+      },
+      "200": {
+        "filename": "numSequence.code",
+        "line": 352
+      },
+      "216": {
+        "filename": "numSequence.code",
+        "line": 353
+      },
+      "224": {
+        "filename": "numSequence.code",
+        "line": 354
+      },
+      "232": {
+        "filename": "numSequence.code",
+        "line": 355
+      },
+      "248": {
+        "filename": "numSequence.code",
+        "line": 356
+      },
+      "256": {
+        "filename": "numSequence.code",
+        "line": 357
+      },
+      "264": {
+        "filename": "numSequence.code",
+        "line": 359
+      },
+      "272": {
+        "filename": "numSequence.code",
+        "line": 360
+      },
+      "280": {
+        "filename": "numSequence.code",
+        "line": 361
+      },
+      "296": {
+        "filename": "numSequence.code",
+        "line": 363
+      },
+      "304": {
+        "filename": "numSequence.code",
+        "line": 364
+      },
+      "320": {
+        "filename": "numSequence.code",
+        "line": 365
+      },
+      "336": {
+        "filename": "numSequence.code",
+        "line": 367
+      },
+      "344": {
+        "filename": "numSequence.code",
+        "line": 368
+      },
+      "360": {
+        "filename": "numSequence.code",
+        "line": 369
+      },
+      "368": {
+        "filename": "numSequence.code",
+        "line": 370
+      },
+      "384": {
+        "filename": "numSequence.code",
+        "line": 372
+      },
+      "392": {
+        "filename": "numSequence.code",
+        "line": 373
+      },
+      "408": {
+        "filename": "numSequence.code",
+        "line": 374
+      },
+      "416": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "432": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "440": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "448": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "464": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "472": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "488": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "512": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "520": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "560": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "568": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "576": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "592": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "608": {
+        "filename": "numSequence.code",
+        "line": 376
+      },
+      "624": {
+        "filename": "numSequence.code",
+        "line": 377
+      },
+      "632": {
+        "filename": "numSequence.code",
+        "line": 378
+      },
+      "648": {
+        "filename": "numSequence.code",
+        "line": 379
+      },
+      "656": {
+        "filename": "numSequence.code",
+        "line": 380
+      },
+      "672": {
+        "filename": "numSequence.code",
+        "line": 381
+      },
+      "688": {
+        "filename": "numSequence.code",
+        "line": 382
+      },
+      "696": {
+        "filename": "numSequence.code",
+        "line": 383
+      },
+      "712": {
+        "filename": "numSequence.code",
+        "line": 386
+      }
+    },
+    "4609820cba180331ae35b240d9601d20077e4b7c27ae30a83624fb0fd6405a56": {
+      "0": {
+        "filename": "numSequence.code",
+        "line": 433
+      },
+      "8": {
+        "filename": "numSequence.code",
+        "line": 434
+      },
+      "56": {
+        "filename": "numSequence.code",
+        "line": 435
+      },
+      "64": {
+        "filename": "numSequence.code",
+        "line": 436
+      },
+      "80": {
+        "filename": "numSequence.code",
+        "line": 439
+      },
+      "88": {
+        "filename": "numSequence.code",
+        "line": 440
+      },
+      "136": {
+        "filename": "numSequence.code",
+        "line": 441
+      },
+      "144": {
+        "filename": "numSequence.code",
+        "line": 442
+      },
+      "160": {
+        "filename": "numSequence.code",
+        "line": 445
+      },
+      "168": {
+        "filename": "numSequence.code",
+        "line": 446
+      },
+      "216": {
+        "filename": "numSequence.code",
+        "line": 447
+      },
+      "224": {
+        "filename": "numSequence.code",
+        "line": 448
+      },
+      "240": {
+        "filename": "numSequence.code",
+        "line": 451
+      },
+      "248": {
+        "filename": "numSequence.code",
+        "line": 452
+      },
+      "296": {
+        "filename": "numSequence.code",
+        "line": 453
+      },
+      "304": {
+        "filename": "numSequence.code",
+        "line": 454
+      }
+    },
+    "5a902c1ddf9836fcf7bd742979680f4cfb357334ea8f637435eab6034d90c377": {
+      "0": {
+        "filename": "numSequence.code",
+        "line": 303
+      },
+      "16": {
+        "filename": "numSequence.code",
+        "line": 304
+      },
+      "24": {
+        "filename": "numSequence.code",
+        "line": 305
+      },
+      "40": {
+        "filename": "numSequence.code",
+        "line": 306
+      },
+      "56": {
+        "filename": "numSequence.code",
+        "line": 307
+      },
+      "72": {
+        "filename": "numSequence.code",
+        "line": 308
+      },
+      "80": {
+        "filename": "numSequence.code",
+        "line": 309
+      },
+      "88": {
+        "filename": "numSequence.code",
+        "line": 310
+      },
+      "112": {
+        "filename": "numSequence.code",
+        "line": 311
+      },
+      "136": {
+        "filename": "numSequence.code",
+        "line": 312
+      },
+      "144": {
+        "filename": "numSequence.code",
+        "line": 313
+      },
+      "152": {
+        "filename": "numSequence.code",
+        "line": 314
+      },
+      "168": {
+        "filename": "numSequence.code",
+        "line": 315
+      },
+      "184": {
+        "filename": "numSequence.code",
+        "line": 319
+      },
+      "192": {
+        "filename": "numSequence.code",
+        "line": 320
+      },
+      "216": {
+        "filename": "numSequence.code",
+        "line": 321
+      },
+      "232": {
+        "filename": "numSequence.code",
+        "line": 322
+      },
+      "240": {
+        "filename": "numSequence.code",
+        "line": 323
+      },
+      "256": {
+        "filename": "numSequence.code",
+        "line": 327
+      },
+      "264": {
+        "filename": "numSequence.code",
+        "line": 328
+      },
+      "280": {
+        "filename": "numSequence.code",
+        "line": 331
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "ad80d28b1f2d233379d5a9326052b8d819f682e9218a51e7d1898296fa457c0e": {
+      "0": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 34
+      },
+      "16": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "32": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "48": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "64": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "72": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "88": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "96": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "112": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "120": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "128": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "144": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "160": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "176": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "192": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 35
+      },
+      "208": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 36
+      },
+      "216": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 36
+      },
+      "232": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 36
+      },
+      "248": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 36
+      },
+      "264": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 36
+      },
+      "280": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 36
+      },
+      "296": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 36
+      },
+      "320": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 36
+      },
+      "336": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 36
+      },
+      "344": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 36
+      },
+      "360": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 36
+      },
+      "376": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 34
+      },
+      "384": {
+        "filename": "numSequence.code",
+        "line": 204
+      },
+      "392": {
+        "filename": "numSequence.code",
+        "line": 205
+      },
+      "400": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      },
+      "416": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      },
+      "576": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      },
+      "584": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      },
+      "592": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      },
+      "600": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      },
+      "616": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      },
+      "624": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      },
+      "640": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      },
+      "656": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      },
+      "664": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      },
+      "672": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 40
+      }
+    },
+    "ae35eb6f7048dad71de809e68a69372f8a3f98ab1bd34cff0b1df80a1bb8ab85": {
+      "0": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 21
+      },
+      "16": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 22
+      },
+      "24": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 22
+      },
+      "32": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 23
+      },
+      "40": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 23
+      },
+      "48": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 23
+      },
+      "64": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 23
+      },
+      "80": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 23
+      },
+      "88": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 23
+      },
+      "104": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 24
+      },
+      "112": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 24
+      },
+      "128": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 24
+      },
+      "144": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 24
+      },
+      "160": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 24
+      },
+      "176": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 24
+      },
+      "192": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 24
+      },
+      "216": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 24
+      },
+      "224": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 24
+      },
+      "232": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 24
+      },
+      "240": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 23
+      },
+      "248": {
+        "filename": "numSequence.code",
+        "line": 127
+      },
+      "256": {
+        "filename": "numSequence.code",
+        "line": 128
+      },
+      "264": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 28
+      },
+      "272": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 28
+      },
+      "296": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 30
+      },
+      "304": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 30
+      },
+      "320": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 31
+      },
+      "328": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 31
+      },
+      "336": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 31
+      },
+      "344": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 31
+      },
+      "360": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 31
+      },
+      "376": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 31
+      },
+      "384": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 31
+      },
+      "400": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "416": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "432": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "448": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "464": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "472": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "488": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "496": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "520": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "528": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "544": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "560": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "576": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 32
+      },
+      "592": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 31
+      },
+      "600": {
+        "filename": "numSequence.code",
+        "line": 162
+      },
+      "608": {
+        "filename": "numSequence.code",
+        "line": 163
+      },
+      "616": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 34
+      },
+      "624": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 34
+      },
+      "632": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 34
+      },
+      "640": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 34
+      },
+      "656": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 34
+      },
+      "672": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 34
+      }
+    },
+    "c0a93971a99cc035867d41d5d300fb0336d69c7c3bd4014f06bf6b1971521cbc": {
+      "0": {
+        "filename": "numSequence.code",
+        "line": 389
+      },
+      "8": {
+        "filename": "numSequence.code",
+        "line": 390
+      },
+      "16": {
+        "filename": "numSequence.code",
+        "line": 391
+      },
+      "32": {
+        "filename": "numSequence.code",
+        "line": 394
+      },
+      "48": {
+        "filename": "numSequence.code",
+        "line": 395
+      },
+      "56": {
+        "filename": "numSequence.code",
+        "line": 396
+      },
+      "72": {
+        "filename": "numSequence.code",
+        "line": 397
+      },
+      "232": {
+        "filename": "numSequence.code",
+        "line": 398
+      },
+      "240": {
+        "filename": "numSequence.code",
+        "line": 399
+      },
+      "248": {
+        "filename": "numSequence.code",
+        "line": 400
+      },
+      "256": {
+        "filename": "numSequence.code",
+        "line": 401
+      },
+      "272": {
+        "filename": "numSequence.code",
+        "line": 402
+      },
+      "280": {
+        "filename": "numSequence.code",
+        "line": 403
+      },
+      "296": {
+        "filename": "numSequence.code",
+        "line": 404
+      },
+      "312": {
+        "filename": "numSequence.code",
+        "line": 405
+      },
+      "320": {
+        "filename": "numSequence.code",
+        "line": 406
+      },
+      "328": {
+        "filename": "numSequence.code",
+        "line": 407
+      },
+      "344": {
+        "filename": "numSequence.code",
+        "line": 409
+      },
+      "352": {
+        "filename": "numSequence.code",
+        "line": 410
+      }
+    },
+    "e44440b95b9975ed2a085029ca15d1f3b2034f9918ce8f994853a5d30d109ef1": {
+      "0": {
+        "filename": "numSequence.code",
+        "line": 222
+      },
+      "16": {
+        "filename": "numSequence.code",
+        "line": 223
+      },
+      "24": {
+        "filename": "numSequence.code",
+        "line": 224
+      },
+      "40": {
+        "filename": "numSequence.code",
+        "line": 225
+      },
+      "56": {
+        "filename": "numSequence.code",
+        "line": 226
+      },
+      "72": {
+        "filename": "numSequence.code",
+        "line": 227
+      },
+      "80": {
+        "filename": "numSequence.code",
+        "line": 228
+      },
+      "96": {
+        "filename": "numSequence.code",
+        "line": 229
+      },
+      "112": {
+        "filename": "numSequence.code",
+        "line": 230
+      },
+      "120": {
+        "filename": "numSequence.code",
+        "line": 231
+      },
+      "136": {
+        "filename": "numSequence.code",
+        "line": 232
+      },
+      "144": {
+        "filename": "numSequence.code",
+        "line": 233
+      },
+      "160": {
+        "filename": "numSequence.code",
+        "line": 234
+      },
+      "168": {
+        "filename": "numSequence.code",
+        "line": 235
+      },
+      "184": {
+        "filename": "numSequence.code",
+        "line": 236
+      },
+      "200": {
+        "filename": "numSequence.code",
+        "line": 237
+      },
+      "216": {
+        "filename": "numSequence.code",
+        "line": 238
+      }
+    },
+    "e5aed176f9a04cd0c5d3e1811a1f8d68c419ee591029fb5e1afa9983cd80483a": {
+      "0": {
+        "filename": "numSequence.code",
+        "line": 66
+      },
+      "8": {
+        "filename": "numSequence.code",
+        "line": 67
+      },
+      "24": {
+        "filename": "numSequence.code",
+        "line": 68
+      },
+      "48": {
+        "filename": "numSequence.code",
+        "line": 69
+      },
+      "64": {
+        "filename": "numSequence.code",
+        "line": 70
+      },
+      "72": {
+        "filename": "numSequence.code",
+        "line": 71
+      },
+      "88": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 20
+      },
+      "96": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 20
+      },
+      "104": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 20
+      },
+      "112": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 20
+      },
+      "120": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 20
+      },
+      "128": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 20
+      },
+      "136": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 20
+      },
+      "152": {
+        "filename": "../contracts/numSequence.tsol",
+        "line": 20
+      },
+      "160": {
+        "filename": "numSequence.code",
+        "line": 85
+      },
+      "176": {
+        "filename": "numSequence.code",
+        "line": 88
+      },
+      "184": {
+        "filename": "numSequence.code",
+        "line": 89
+      },
+      "200": {
+        "filename": "numSequence.code",
+        "line": 92
+      }
+    },
+    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+      "0": {
+        "filename": "numSequence.code",
+        "line": 316
+      },
+      "16": {
+        "filename": "numSequence.code",
+        "line": 317
+      }
+    },
+    "fd8bf44e492ab0a75171dd6b4a85732008e0ad6eb62c292ccf611e3faa25748f": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
+      }
+    },
+    "fede7e8a8de9936215f2c319c9fcaf002bf9c60561d1ab62d506a31a10fc94c3": {
+      "0": {
+        "filename": "numSequence.code",
+        "line": 241
+      },
+      "16": {
+        "filename": "numSequence.code",
+        "line": 242
+      },
+      "24": {
+        "filename": "numSequence.code",
+        "line": 243
+      },
+      "40": {
+        "filename": "numSequence.code",
+        "line": 244
+      },
+      "56": {
+        "filename": "numSequence.code",
+        "line": 245
+      },
+      "72": {
+        "filename": "numSequence.code",
+        "line": 246
+      },
+      "80": {
+        "filename": "numSequence.code",
+        "line": 247
+      },
+      "96": {
+        "filename": "numSequence.code",
+        "line": 248
+      },
+      "104": {
+        "filename": "numSequence.code",
+        "line": 249
+      },
+      "120": {
+        "filename": "numSequence.code",
+        "line": 250
+      },
+      "128": {
+        "filename": "numSequence.code",
+        "line": 251
+      },
+      "136": {
+        "filename": "numSequence.code",
+        "line": 252
+      },
+      "152": {
+        "filename": "numSequence.code",
+        "line": 253
+      },
+      "160": {
+        "filename": "numSequence.code",
+        "line": 254
+      },
+      "176": {
+        "filename": "numSequence.code",
+        "line": 255
+      },
+      "192": {
+        "filename": "numSequence.code",
+        "line": 256
+      },
+      "208": {
+        "filename": "numSequence.code",
+        "line": 257
+      },
+      "224": {
+        "filename": "numSequence.code",
+        "line": 258
+      },
+      "240": {
+        "filename": "numSequence.code",
+        "line": 259
+      },
+      "264": {
+        "filename": "numSequence.code",
+        "line": 260
+      },
+      "280": {
+        "filename": "numSequence.code",
+        "line": 261
+      },
+      "288": {
+        "filename": "numSequence.code",
+        "line": 262
+      },
+      "304": {
+        "filename": "numSequence.code",
+        "line": 264
+      }
+    }
+  }
+}

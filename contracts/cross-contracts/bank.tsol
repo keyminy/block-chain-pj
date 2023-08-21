@@ -1,0 +1,71 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+import "user.tsol";
+
+contract bank {
+    //owner
+    address public owner;
+
+    address public user;
+
+
+    //이자율
+    uint public interestRate;
+
+    //누적되는 bank의 이익
+    uint public bankProfit;
+
+    //
+    uint public loanNum;
+
+    //1개의 대출만 허용
+    bool public isLoanAvailable;
+
+    event LoanTaken(address user, uint loanNum);
+    event Repay(address user, uint TotalRepay);
+    // 함수 변경자로 owner만이 함수를 사용할 수 있게함.
+    modifier onlyOwner {
+        require(msg.sender == owner, 1001);
+        _;
+    }
+
+    // 최초 이자율 설정
+    constructor(uint _interestRate) public {
+        tvm.accept();
+        owner = msg.sender;
+        interestRate = _interestRate;
+//        configuredInterestRate(_interestRate);
+        isLoanAvailable = true;
+    }
+
+    function configuredInterestRate(uint _interestRate) external onlyOwner {
+        tvm.accept();
+        interestRate = _interestRate;
+    }
+
+    function loan(uint _loanNum) external {
+        tvm.accept();
+
+        require(isLoanAvailable, 1002);
+        loanNum = _loanNum;
+        user = msg.sender;
+        isLoanAvailable = false;
+
+        emit LoanTaken(user, loanNum);
+    }
+
+
+    function repaying() external {
+        tvm.accept();
+
+        require(msg.sender == user, 1003);
+        uint TotalRepay;
+        TotalRepay = loanNum * (100 + interestRate) / 100;
+        bankProfit += (TotalRepay - loanNum);
+        loanNum = 0;
+
+        isLoanAvailable = true;
+
+        emit Repay(user, TotalRepay);
+    }
+}

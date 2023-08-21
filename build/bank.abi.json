@@ -1,0 +1,119 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_interestRate","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "configuredInterestRate",
+			"inputs": [
+				{"name":"_interestRate","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "loan",
+			"inputs": [
+				{"name":"_loanNum","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repaying",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "owner",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"owner","type":"address"}
+			]
+		},
+		{
+			"name": "user",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"user","type":"address"}
+			]
+		},
+		{
+			"name": "interestRate",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"interestRate","type":"uint256"}
+			]
+		},
+		{
+			"name": "bankProfit",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"bankProfit","type":"uint256"}
+			]
+		},
+		{
+			"name": "loanNum",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"loanNum","type":"uint256"}
+			]
+		},
+		{
+			"name": "isLoanAvailable",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"isLoanAvailable","type":"bool"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+		{
+			"name": "LoanTaken",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"loanNum","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "Repay",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"TotalRepay","type":"uint256"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"owner","type":"address"},
+		{"name":"user","type":"address"},
+		{"name":"interestRate","type":"uint256"},
+		{"name":"bankProfit","type":"uint256"},
+		{"name":"loanNum","type":"uint256"},
+		{"name":"isLoanAvailable","type":"bool"}
+	]
+}

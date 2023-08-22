@@ -127,7 +127,7 @@ PUSHCONT {
 WHILE
 DROP
 .loc ../contracts/numSequence.tsol, 28
-NEQ
+EQUAL
 THROWIFNOT 1001
 .loc ../contracts/numSequence.tsol, 30
 PUSHINT 0
@@ -161,7 +161,7 @@ PUSHCONT {
 }
 WHILE
 DROP
-.loc ../contracts/numSequence.tsol, 34
+.loc ../contracts/numSequence.tsol, 36
 PUSHINT 0
 PUSHCONT {
 	DUP
@@ -170,22 +170,24 @@ PUSHCONT {
 	LESS
 }
 PUSHCONT {
-	.loc ../contracts/numSequence.tsol, 35
-	GETGLOB 10
+	.loc ../contracts/numSequence.tsol, 37
 	PUSHPOW2DEC 8
 	RAND
+	GETGLOB 10
+	UNPAIR
+	PUXC S3, S-1
+	PUSH2 S1, S2
+	LESS
+	THROWIFNOT 50
+	ROLL 3
 	NEWC
 	STU 8
-	SWAP
-	UNPAIR
-	OVER
-	INC
-	ROLLREV 3
+	ROTREV
 	PUSHINT 32
 	DICTUSETB
 	PAIR
 	SETGLOB 10
-	.loc ../contracts/numSequence.tsol, 36
+	.loc ../contracts/numSequence.tsol, 38
 	DUP
 	GETGLOB 10
 	SECOND
@@ -197,13 +199,13 @@ PUSHCONT {
 	ADD
 	UFITS 16
 	SETGLOB 11
-	.loc ../contracts/numSequence.tsol, 34
+	.loc ../contracts/numSequence.tsol, 36
 	INC
 	.loc ../contracts/numSequence.tsol, 0
 }
 WHILE
 DROP
-.loc ../contracts/numSequence.tsol, 40
+.loc ../contracts/numSequence.tsol, 42
 GETGLOB 10
 PUSHSLICE xc00000000000000000000000004246eec6
 NEWC

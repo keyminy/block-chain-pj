@@ -25,14 +25,16 @@ contract numSequence {
         }
 
         //합이 맞는지 판단 필요
-        require(sum_Arr != inputNum,1001);
+        require(sum_Arr == inputNum,1001);
         //generate new sequence
         sum = 0;
         for(uint i=0; i < arr.length; i++){
             delete arr[i];
         }
+        // arr.length = 3
+
         for(uint i=0; i < arr.length; i++){
-            arr.push(rnd.next(255));
+            arr[i] = rnd.next(255);
             sum += arr[i];
         }
 

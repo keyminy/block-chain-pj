@@ -6,7 +6,8 @@
 		{
 			"name": "constructor",
 			"inputs": [
-				{"name":"_bank","type":"address"}
+				{"name":"_bank","type":"address"},
+				{"name":"_initialBalance","type":"uint128"}
 			],
 			"outputs": [
 			]
@@ -20,10 +21,42 @@
 			]
 		},
 		{
+			"name": "loanReceived",
+			"inputs": [
+				{"name":"_loanNum","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
 			"name": "repayLoan",
+			"inputs": [
+				{"name":"_repayAmount","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repayAccepted",
+			"inputs": [
+				{"name":"_totalRepayAmount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repayRejected",
 			"inputs": [
 			],
 			"outputs": [
+			]
+		},
+		{
+			"name": "getMoney",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_money","type":"uint256"}
 			]
 		},
 		{
@@ -60,6 +93,30 @@
 			"inputs": [
 				{"name":"user","type":"address"},
 				{"name":"repayAmount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "receivedSuccess",
+			"inputs": [
+				{"name":"_loanNum","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repaySuccess",
+			"inputs": [
+				{"name":"_totalRepayAmount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "RepayRejected",
+			"inputs": [
+				{"name":"message","type":"string"}
 			],
 			"outputs": [
 			]

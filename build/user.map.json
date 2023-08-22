@@ -1,97 +1,577 @@
 {
   "map": {
-    "107d0602453aaf678bf1d284d6804490d0213009bb4e34c28b3db1369d7ffa41": {
+    "08bfac7ce15db09949f542e63d47c4fa73c6a68121d1b8418ca90042f74b36df": {
       "0": {
-        "filename": "user.code",
-        "line": 254
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 41
       },
       "16": {
-        "filename": "user.code",
-        "line": 255
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 41
       },
       "24": {
-        "filename": "user.code",
-        "line": 256
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 41
       },
-      "40": {
-        "filename": "user.code",
-        "line": 257
+      "32": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 41
       },
-      "56": {
-        "filename": "user.code",
-        "line": 258
-      },
-      "72": {
-        "filename": "user.code",
-        "line": 259
-      },
-      "80": {
-        "filename": "user.code",
-        "line": 262
-      },
-      "96": {
-        "filename": "user.code",
-        "line": 263
-      },
-      "104": {
-        "filename": "user.code",
-        "line": 264
-      },
-      "120": {
-        "filename": "user.code",
-        "line": 267
-      },
-      "136": {
-        "filename": "user.code",
-        "line": 268
-      },
-      "144": {
-        "filename": "user.code",
-        "line": 269
-      },
-      "152": {
-        "filename": "user.code",
-        "line": 270
-      },
-      "168": {
-        "filename": "user.code",
-        "line": 271
-      },
-      "184": {
-        "filename": "user.code",
-        "line": 272
-      },
-      "192": {
-        "filename": "user.code",
-        "line": 273
+      "48": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 42
       },
       "208": {
-        "filename": "user.code",
-        "line": 274
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 42
       },
       "216": {
-        "filename": "user.code",
-        "line": 275
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 42
       },
-      "232": {
-        "filename": "user.code",
-        "line": 276
+      "224": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 42
+      },
+      "240": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 42
       },
       "248": {
-        "filename": "user.code",
-        "line": 277
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 42
+      },
+      "256": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 42
+      }
+    },
+    "138e9d80881b76642f84110d6282d91d70e48c2f3ba903dc6904959726647eff": {
+      "0": {
+        "filename": "User.code",
+        "line": 84
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 85
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 86
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 87
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 88
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 89
+      },
+      "88": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 40
+      },
+      "104": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 40
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 96
+      },
+      "128": {
+        "filename": "User.code",
+        "line": 99
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 100
+      },
+      "152": {
+        "filename": "User.code",
+        "line": 103
+      }
+    },
+    "29a2b51c09c3b17568e17f98190afaccfd36518245946571a63b89439f94dc72": {
+      "0": {
+        "filename": "User.code",
+        "line": 122
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 123
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 124
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 125
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 126
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 127
+      },
+      "88": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 47
+      },
+      "104": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 47
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 134
+      },
+      "128": {
+        "filename": "User.code",
+        "line": 137
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 138
+      },
+      "152": {
+        "filename": "User.code",
+        "line": 141
+      }
+    },
+    "33a0a322984b6cce16a015b825a11400425035ea83632d42df895235442f53f1": {
+      "0": {
+        "filename": "User.code",
+        "line": 514
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 515
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 516
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 517
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 520
+      },
+      "88": {
+        "filename": "User.code",
+        "line": 521
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 522
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 523
+      },
+      "160": {
+        "filename": "User.code",
+        "line": 526
+      },
+      "168": {
+        "filename": "User.code",
+        "line": 527
+      },
+      "216": {
+        "filename": "User.code",
+        "line": 528
+      },
+      "224": {
+        "filename": "User.code",
+        "line": 529
+      },
+      "240": {
+        "filename": "User.code",
+        "line": 532
+      },
+      "248": {
+        "filename": "User.code",
+        "line": 533
+      },
+      "296": {
+        "filename": "User.code",
+        "line": 534
+      },
+      "304": {
+        "filename": "User.code",
+        "line": 535
+      }
+    },
+    "5fae2dbbcb465c79562ce63fe25f69d9bd13bc0f0b8b13b2e5dfecb414617204": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
+      }
+    },
+    "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
+      "0": {
+        "filename": "User.code",
+        "line": 320
+      }
+    },
+    "670c17160bf96164ec9918b29df9a176a70ae69f742f59568a41a39f0505c8df": {
+      "0": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 51
+      },
+      "16": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 54
+      },
+      "32": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 54
+      },
+      "40": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 54
+      },
+      "48": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 54
+      },
+      "72": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 57
+      },
+      "88": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 57
+      },
+      "96": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 57
+      },
+      "120": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 57
+      },
+      "128": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 57
+      },
+      "312": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 57
+      },
+      "336": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 57
+      },
+      "352": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 57
+      },
+      "360": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 57
+      },
+      "368": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 57
+      }
+    },
+    "69a2cda06916052abeae6fae841ee3cba283cd040a1b8098d7e42653fcf64626": {
+      "0": {
+        "filename": "User.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "User.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 12
+      },
+      "88": {
+        "filename": "User.code",
+        "line": 13
+      },
+      "96": {
+        "filename": "User.code",
+        "line": 14
+      },
+      "104": {
+        "filename": "User.code",
+        "line": 15
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 16
+      },
+      "120": {
+        "filename": "User.code",
+        "line": 18
+      },
+      "128": {
+        "filename": "User.code",
+        "line": 19
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 20
+      },
+      "160": {
+        "filename": "User.code",
+        "line": 21
+      },
+      "168": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 24
+      },
+      "184": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 25
+      },
+      "200": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 26
+      },
+      "216": {
+        "filename": "User.code",
+        "line": 29
+      },
+      "232": {
+        "filename": "User.code",
+        "line": 32
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "8c9755c73d66489ee5b4f88afd6f83324ba92450ed5baedac138f4f468e28249": {
+      "0": {
+        "filename": "User.code",
+        "line": 314
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 315
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 316
+      },
+      "32": {
+        "filename": "User.code",
+        "line": 317
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 318
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 319
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 322
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 323
+      },
+      "96": {
+        "filename": "User.code",
+        "line": 324
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 325
+      },
+      "128": {
+        "filename": "User.code",
+        "line": 326
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 327
+      },
+      "168": {
+        "filename": "User.code",
+        "line": 328
+      },
+      "184": {
+        "filename": "User.code",
+        "line": 329
+      },
+      "192": {
+        "filename": "User.code",
+        "line": 330
+      }
+    },
+    "91723a88096ff2018336b96a9b86e3c07f64be8be20fb7df0b79c6db2081611c": {
+      "0": {
+        "filename": "User.code",
+        "line": 404
+      },
+      "16": {
+        "filename": "User.code",
+        "line": 405
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 406
+      },
+      "40": {
+        "filename": "User.code",
+        "line": 407
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 408
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 409
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 412
+      },
+      "96": {
+        "filename": "User.code",
+        "line": 413
+      },
+      "104": {
+        "filename": "User.code",
+        "line": 414
+      },
+      "120": {
+        "filename": "User.code",
+        "line": 417
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 418
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 419
+      },
+      "152": {
+        "filename": "User.code",
+        "line": 420
+      },
+      "168": {
+        "filename": "User.code",
+        "line": 421
+      },
+      "184": {
+        "filename": "User.code",
+        "line": 422
+      },
+      "192": {
+        "filename": "User.code",
+        "line": 423
+      },
+      "208": {
+        "filename": "User.code",
+        "line": 424
+      },
+      "216": {
+        "filename": "User.code",
+        "line": 425
+      },
+      "232": {
+        "filename": "User.code",
+        "line": 426
+      },
+      "248": {
+        "filename": "User.code",
+        "line": 427
       },
       "264": {
-        "filename": "user.code",
-        "line": 279
+        "filename": "User.code",
+        "line": 429
       },
       "272": {
-        "filename": "user.code",
-        "line": 280
+        "filename": "User.code",
+        "line": 430
       },
       "288": {
-        "filename": "user.code",
-        "line": 281
+        "filename": "User.code",
+        "line": 431
       },
       "296": {
         "filename": "stdlib.sol",
@@ -146,1000 +626,1038 @@
         "line": 63
       },
       "488": {
-        "filename": "user.code",
-        "line": 283
+        "filename": "User.code",
+        "line": 433
       },
       "504": {
-        "filename": "user.code",
-        "line": 284
+        "filename": "User.code",
+        "line": 434
       },
       "512": {
-        "filename": "user.code",
-        "line": 285
+        "filename": "User.code",
+        "line": 435
       },
       "528": {
-        "filename": "user.code",
-        "line": 288
+        "filename": "User.code",
+        "line": 438
       }
     },
-    "16fdaf930c899df27451f948f70208dc6c7789c0dac1efa6d2ab2232e03d1988": {
+    "9a6b9d19cb981c888c4ffccb5cab041adb16afc2019d206b27781a2affa52895": {
       "0": {
-        "filename": "user.code",
-        "line": 86
+        "filename": "User.code",
+        "line": 481
       },
       "8": {
-        "filename": "user.code",
-        "line": 87
-      },
-      "24": {
-        "filename": "user.code",
-        "line": 88
-      },
-      "48": {
-        "filename": "user.code",
-        "line": 89
-      },
-      "64": {
-        "filename": "user.code",
-        "line": 90
-      },
-      "72": {
-        "filename": "user.code",
-        "line": 91
-      },
-      "88": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 25
-      },
-      "96": {
-        "filename": "user.code",
-        "line": 97
-      },
-      "112": {
-        "filename": "user.code",
-        "line": 100
-      },
-      "120": {
-        "filename": "user.code",
-        "line": 101
-      },
-      "136": {
-        "filename": "user.code",
-        "line": 104
-      }
-    },
-    "4b5cc21aad9967587d523f07b4488ca671be5cd3a02fe8ee8812f1250497d636": {
-      "0": {
-        "filename": "user.code",
-        "line": 4
-      },
-      "8": {
-        "filename": "user.code",
-        "line": 5
-      },
-      "24": {
-        "filename": "user.code",
-        "line": 6
-      },
-      "32": {
-        "filename": "user.code",
-        "line": 7
-      },
-      "48": {
-        "filename": "user.code",
-        "line": 10
-      },
-      "64": {
-        "filename": "user.code",
-        "line": 11
-      },
-      "80": {
-        "filename": "user.code",
-        "line": 12
-      },
-      "88": {
-        "filename": "user.code",
-        "line": 13
-      },
-      "96": {
-        "filename": "user.code",
-        "line": 14
-      },
-      "104": {
-        "filename": "user.code",
-        "line": 15
-      },
-      "112": {
-        "filename": "user.code",
-        "line": 16
-      },
-      "120": {
-        "filename": "user.code",
-        "line": 18
-      },
-      "128": {
-        "filename": "user.code",
-        "line": 19
-      },
-      "144": {
-        "filename": "user.code",
-        "line": 20
-      },
-      "152": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 14
-      },
-      "168": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 15
-      },
-      "184": {
-        "filename": "user.code",
-        "line": 26
-      },
-      "200": {
-        "filename": "user.code",
-        "line": 29
-      }
-    },
-    "5a17c7a5771b631e45898e9afbf724d08927a7576edb33c0df1e44efbb6c1fe3": {
-      "0": {
-        "filename": "user.code",
-        "line": 32
-      },
-      "8": {
-        "filename": "user.code",
-        "line": 33
-      },
-      "24": {
-        "filename": "user.code",
-        "line": 34
-      },
-      "48": {
-        "filename": "user.code",
-        "line": 35
-      },
-      "64": {
-        "filename": "user.code",
-        "line": 36
-      },
-      "72": {
-        "filename": "user.code",
-        "line": 37
-      },
-      "88": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 18
-      },
-      "104": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 18
-      },
-      "112": {
-        "filename": "user.code",
-        "line": 44
-      },
-      "128": {
-        "filename": "user.code",
-        "line": 47
-      },
-      "136": {
-        "filename": "user.code",
-        "line": 48
-      },
-      "152": {
-        "filename": "user.code",
-        "line": 51
-      }
-    },
-    "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
-      "0": {
-        "filename": "user.code",
-        "line": 170
-      }
-    },
-    "61fa556e1c22f2465ee504b36a8e4bf8b86a8a7ca4ab024ce7aa61e1d02ca55a": {
-      "0": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 26
-      },
-      "16": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 27
-      },
-      "32": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 27
-      },
-      "48": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 27
-      },
-      "72": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 28
-      },
-      "88": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 28
-      },
-      "96": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 28
-      },
-      "120": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 28
-      },
-      "128": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 28
-      },
-      "312": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 28
-      },
-      "336": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 28
-      },
-      "344": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 28
-      },
-      "352": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 28
-      },
-      "368": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 29
-      },
-      "384": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 30
-      },
-      "392": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 30
-      },
-      "408": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 31
-      },
-      "424": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 31
-      },
-      "584": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 31
-      },
-      "592": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 31
-      },
-      "600": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 31
-      },
-      "608": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 31
-      },
-      "624": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 31
-      },
-      "632": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 31
-      },
-      "640": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 31
-      }
-    },
-    "69bf7107da2c7e8ff9687419c41e35e1e4de88169b23889e72cfbde210ea99ea": {
-      "0": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 19
-      },
-      "16": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 20
-      },
-      "24": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 20
-      },
-      "40": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 20
-      },
-      "48": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 20
-      },
-      "72": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 20
-      },
-      "80": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 20
-      },
-      "264": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 20
-      },
-      "288": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 20
-      },
-      "304": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 20
-      },
-      "312": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 20
-      },
-      "320": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 20
-      },
-      "336": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 21
-      },
-      "352": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 21
-      },
-      "360": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 21
-      },
-      "368": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 21
-      },
-      "384": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 22
-      },
-      "400": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 22
-      },
-      "560": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 22
-      },
-      "568": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 22
-      },
-      "576": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 22
-      },
-      "584": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 22
-      },
-      "600": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 22
-      },
-      "608": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 22
-      },
-      "616": {
-        "filename": "../contracts/cross-contracts/user.tsol",
-        "line": 22
-      }
-    },
-    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
-      "0": {
-        "filename": "<internal-selector>",
-        "line": 1
-      },
-      "24": {
-        "filename": "<internal-selector>",
-        "line": 2
-      }
-    },
-    "7df48927e63645947804988a36fe54dc6641611953fed2f37a70f341513204e9": {
-      "0": {
-        "filename": "<entry-selector>",
-        "line": 1
-      },
-      "8": {
-        "filename": "<entry-selector>",
-        "line": 2
-      },
-      "24": {
-        "filename": "<entry-selector>",
-        "line": 3
-      },
-      "32": {
-        "filename": "<entry-selector>",
-        "line": 4
-      },
-      "48": {
-        "filename": "<entry-selector>",
-        "line": 5
+        "filename": "User.code",
+        "line": 482
       },
       "56": {
-        "filename": "<entry-selector>",
-        "line": 6
+        "filename": "User.code",
+        "line": 483
       },
-      "72": {
-        "filename": "<entry-selector>",
-        "line": 7
+      "64": {
+        "filename": "User.code",
+        "line": 484
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 510
       },
       "88": {
-        "filename": "<entry-selector>",
-        "line": 8
+        "filename": "User.code",
+        "line": 511
       },
-      "96": {
-        "filename": "<entry-selector>",
-        "line": 9
+      "136": {
+        "filename": "User.code",
+        "line": 512
       },
-      "112": {
-        "filename": "<entry-selector>",
-        "line": 10
+      "144": {
+        "filename": "User.code",
+        "line": 513
       },
-      "128": {
-        "filename": "<entry-selector>",
-        "line": 11
+      "160": {
+        "filename": "User.code",
+        "line": 539
+      },
+      "168": {
+        "filename": "User.code",
+        "line": 540
+      },
+      "216": {
+        "filename": "User.code",
+        "line": 541
+      },
+      "224": {
+        "filename": "User.code",
+        "line": 542
       }
     },
-    "8c9755c73d66489ee5b4f88afd6f83324ba92450ed5baedac138f4f468e28249": {
+    "9d72a5e35dc4850bccd23199618e1c84b233492cf2bce3987dd553f7856b9ede": {
       "0": {
-        "filename": "user.code",
-        "line": 164
-      },
-      "8": {
-        "filename": "user.code",
+        "filename": "User.code",
         "line": 165
       },
-      "24": {
-        "filename": "user.code",
+      "8": {
+        "filename": "User.code",
         "line": 166
       },
-      "32": {
-        "filename": "user.code",
+      "24": {
+        "filename": "User.code",
         "line": 167
       },
       "48": {
-        "filename": "user.code",
+        "filename": "User.code",
         "line": 168
       },
-      "56": {
-        "filename": "user.code",
+      "64": {
+        "filename": "User.code",
         "line": 169
       },
-      "64": {
-        "filename": "user.code",
-        "line": 172
-      },
-      "80": {
-        "filename": "user.code",
-        "line": 173
-      },
-      "96": {
-        "filename": "user.code",
-        "line": 174
-      },
-      "112": {
-        "filename": "user.code",
-        "line": 175
-      },
-      "128": {
-        "filename": "user.code",
-        "line": 176
-      },
-      "144": {
-        "filename": "user.code",
-        "line": 177
-      },
-      "168": {
-        "filename": "user.code",
-        "line": 178
-      },
-      "184": {
-        "filename": "user.code",
-        "line": 179
-      },
-      "192": {
-        "filename": "user.code",
-        "line": 180
-      }
-    },
-    "936666f884639a01d23b418cde45d34339e66d5d25674dcea8bbf74fa724c228": {
-      "0": {
-        "filename": "user.code",
-        "line": 331
-      },
-      "8": {
-        "filename": "user.code",
-        "line": 332
-      },
-      "56": {
-        "filename": "user.code",
-        "line": 333
-      },
-      "64": {
-        "filename": "user.code",
-        "line": 334
-      },
-      "80": {
-        "filename": "user.code",
-        "line": 360
+      "72": {
+        "filename": "User.code",
+        "line": 170
       },
       "88": {
-        "filename": "user.code",
-        "line": 361
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 71
+      },
+      "104": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 71
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 177
+      },
+      "128": {
+        "filename": "User.code",
+        "line": 180
       },
       "136": {
-        "filename": "user.code",
-        "line": 362
+        "filename": "User.code",
+        "line": 181
       },
-      "144": {
-        "filename": "user.code",
-        "line": 363
+      "152": {
+        "filename": "User.code",
+        "line": 184
+      }
+    },
+    "a19b2e26ea19c55b9c368c256bb71416f5f4e03058f3363624e5dc50115f07d3": {
+      "0": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 72
+      },
+      "8": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 72
+      },
+      "24": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 72
+      },
+      "32": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 72
+      },
+      "56": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 73
+      },
+      "72": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 73
+      },
+      "80": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 73
+      },
+      "88": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 73
+      },
+      "104": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 73
+      },
+      "120": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 75
+      },
+      "280": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 75
+      },
+      "288": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 75
+      },
+      "296": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 75
+      },
+      "312": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 75
+      },
+      "320": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 75
+      },
+      "328": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 75
       }
     },
     "a5b8d2133201af961e84b230c5010f7a93df9fb6f41fc8f14f01b9f9804ea869": {
       "0": {
-        "filename": "user.code",
-        "line": 187
+        "filename": "User.code",
+        "line": 337
       },
       "16": {
-        "filename": "user.code",
-        "line": 188
+        "filename": "User.code",
+        "line": 338
       },
       "32": {
-        "filename": "user.code",
-        "line": 189
+        "filename": "User.code",
+        "line": 339
       },
       "48": {
-        "filename": "user.code",
-        "line": 190
+        "filename": "User.code",
+        "line": 340
       },
       "56": {
-        "filename": "user.code",
-        "line": 191
+        "filename": "User.code",
+        "line": 341
       },
       "72": {
-        "filename": "user.code",
-        "line": 192
+        "filename": "User.code",
+        "line": 342
       },
       "88": {
-        "filename": "user.code",
-        "line": 193
+        "filename": "User.code",
+        "line": 343
       },
       "104": {
-        "filename": "user.code",
-        "line": 194
+        "filename": "User.code",
+        "line": 344
       },
       "120": {
-        "filename": "user.code",
-        "line": 195
+        "filename": "User.code",
+        "line": 345
       },
       "136": {
-        "filename": "user.code",
-        "line": 196
+        "filename": "User.code",
+        "line": 346
       },
       "144": {
-        "filename": "user.code",
-        "line": 197
+        "filename": "User.code",
+        "line": 347
       },
       "152": {
-        "filename": "user.code",
-        "line": 198
+        "filename": "User.code",
+        "line": 348
       },
       "160": {
-        "filename": "user.code",
-        "line": 199
+        "filename": "User.code",
+        "line": 349
       },
       "168": {
-        "filename": "user.code",
-        "line": 200
+        "filename": "User.code",
+        "line": 350
       }
     },
-    "ce39795ed766a681e3762771c471de00206a08332313f432ea433af4fac95b41": {
+    "ae15d36b0f4f6cd9fd366ae115312fa989769c1311fe5452bb3399c2e93cd6a9": {
       "0": {
-        "filename": "user.code",
-        "line": 219
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 79
       },
-      "16": {
-        "filename": "user.code",
-        "line": 220
-      },
-      "24": {
-        "filename": "user.code",
-        "line": 221
-      },
-      "40": {
-        "filename": "user.code",
-        "line": 222
-      },
-      "56": {
-        "filename": "user.code",
-        "line": 223
-      },
-      "72": {
-        "filename": "user.code",
-        "line": 224
-      },
-      "80": {
-        "filename": "user.code",
-        "line": 225
-      },
-      "88": {
-        "filename": "user.code",
-        "line": 226
-      },
-      "104": {
-        "filename": "user.code",
-        "line": 227
-      },
-      "120": {
-        "filename": "user.code",
-        "line": 228
-      },
-      "128": {
-        "filename": "user.code",
-        "line": 229
-      },
-      "144": {
-        "filename": "user.code",
-        "line": 230
+      "8": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 79
       },
       "168": {
-        "filename": "user.code",
-        "line": 231
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 79
       },
       "176": {
-        "filename": "user.code",
-        "line": 232
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 79
       },
       "184": {
-        "filename": "user.code",
-        "line": 233
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 79
+      },
+      "192": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 79
       },
       "200": {
-        "filename": "user.code",
-        "line": 234
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 79
+      },
+      "208": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 79
+      }
+    },
+    "ca55d6d838d5cad1e897f75f0215467e2864acfec839e93127e80d8565f0e0fe": {
+      "0": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 82
+      }
+    },
+    "ccfb6e6813899b24a24ff5b214a47f1d7f6748d4e371fd35c03fb57485c32ec3": {
+      "0": {
+        "filename": "User.code",
+        "line": 485
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 486
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 487
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 488
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 491
+      },
+      "88": {
+        "filename": "User.code",
+        "line": 492
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 493
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 494
+      },
+      "160": {
+        "filename": "User.code",
+        "line": 497
+      },
+      "168": {
+        "filename": "User.code",
+        "line": 498
       },
       "216": {
-        "filename": "user.code",
-        "line": 238
+        "filename": "User.code",
+        "line": 499
       },
       "224": {
-        "filename": "user.code",
-        "line": 239
+        "filename": "User.code",
+        "line": 500
+      },
+      "240": {
+        "filename": "User.code",
+        "line": 503
       },
       "248": {
-        "filename": "user.code",
-        "line": 240
-      },
-      "264": {
-        "filename": "user.code",
-        "line": 241
-      },
-      "272": {
-        "filename": "user.code",
-        "line": 242
-      },
-      "288": {
-        "filename": "user.code",
-        "line": 246
+        "filename": "User.code",
+        "line": 504
       },
       "296": {
-        "filename": "user.code",
-        "line": 247
+        "filename": "User.code",
+        "line": 505
       },
-      "312": {
-        "filename": "user.code",
-        "line": 250
+      "304": {
+        "filename": "User.code",
+        "line": 506
       }
     },
     "ce9d84fa99cda08be9bf1b4f9f9eb8b91baf606108e7569edc765e69405139e7": {
       "0": {
-        "filename": "user.code",
-        "line": 141
+        "filename": "User.code",
+        "line": 291
       },
       "16": {
-        "filename": "user.code",
-        "line": 142
+        "filename": "User.code",
+        "line": 292
       },
       "24": {
-        "filename": "user.code",
-        "line": 143
+        "filename": "User.code",
+        "line": 293
       },
       "40": {
-        "filename": "user.code",
-        "line": 144
+        "filename": "User.code",
+        "line": 294
       },
       "56": {
-        "filename": "user.code",
-        "line": 145
+        "filename": "User.code",
+        "line": 295
       },
       "72": {
-        "filename": "user.code",
-        "line": 146
+        "filename": "User.code",
+        "line": 296
       },
       "80": {
-        "filename": "user.code",
-        "line": 147
+        "filename": "User.code",
+        "line": 297
       },
       "96": {
-        "filename": "user.code",
-        "line": 148
+        "filename": "User.code",
+        "line": 298
       },
       "104": {
-        "filename": "user.code",
-        "line": 149
+        "filename": "User.code",
+        "line": 299
       },
       "112": {
-        "filename": "user.code",
-        "line": 150
+        "filename": "User.code",
+        "line": 300
       },
       "120": {
-        "filename": "user.code",
-        "line": 151
+        "filename": "User.code",
+        "line": 301
       },
       "136": {
-        "filename": "user.code",
-        "line": 152
+        "filename": "User.code",
+        "line": 302
       },
       "144": {
-        "filename": "user.code",
-        "line": 153
+        "filename": "User.code",
+        "line": 303
       },
       "160": {
-        "filename": "user.code",
-        "line": 154
+        "filename": "User.code",
+        "line": 304
       },
       "176": {
-        "filename": "user.code",
-        "line": 155
+        "filename": "User.code",
+        "line": 305
       },
       "192": {
-        "filename": "user.code",
-        "line": 156
+        "filename": "User.code",
+        "line": 306
+      }
+    },
+    "d3c249bf5724a79a627e1b404cbf4f7a0cfb046a8cb682a48f7aa7a5f5ba8804": {
+      "0": {
+        "filename": "User.code",
+        "line": 369
+      },
+      "16": {
+        "filename": "User.code",
+        "line": 370
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 371
+      },
+      "40": {
+        "filename": "User.code",
+        "line": 372
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 373
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 374
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 375
+      },
+      "88": {
+        "filename": "User.code",
+        "line": 376
+      },
+      "104": {
+        "filename": "User.code",
+        "line": 377
+      },
+      "120": {
+        "filename": "User.code",
+        "line": 378
+      },
+      "128": {
+        "filename": "User.code",
+        "line": 379
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 380
+      },
+      "168": {
+        "filename": "User.code",
+        "line": 381
+      },
+      "176": {
+        "filename": "User.code",
+        "line": 382
+      },
+      "184": {
+        "filename": "User.code",
+        "line": 383
+      },
+      "200": {
+        "filename": "User.code",
+        "line": 384
+      },
+      "216": {
+        "filename": "User.code",
+        "line": 388
+      },
+      "224": {
+        "filename": "User.code",
+        "line": 389
+      },
+      "248": {
+        "filename": "User.code",
+        "line": 390
+      },
+      "264": {
+        "filename": "User.code",
+        "line": 391
+      },
+      "272": {
+        "filename": "User.code",
+        "line": 392
+      },
+      "288": {
+        "filename": "User.code",
+        "line": 396
+      },
+      "296": {
+        "filename": "User.code",
+        "line": 397
+      },
+      "312": {
+        "filename": "User.code",
+        "line": 400
+      }
+    },
+    "d7d9ebe521073173f21654bb11e7a12f3a2742f6077599b17c53703a2964f87d": {
+      "0": {
+        "filename": "User.code",
+        "line": 35
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 36
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 37
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 38
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 39
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 40
+      },
+      "88": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 29
+      },
+      "104": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 29
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 47
+      },
+      "128": {
+        "filename": "User.code",
+        "line": 50
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 51
+      },
+      "152": {
+        "filename": "User.code",
+        "line": 54
       }
     },
     "d877f6cbc92aaeb3ed5d26d2758f77fad776267f31542ff5b2dd6ddd99498ed6": {
       "0": {
-        "filename": "user.code",
-        "line": 311
+        "filename": "User.code",
+        "line": 461
       },
       "8": {
-        "filename": "user.code",
-        "line": 312
+        "filename": "User.code",
+        "line": 462
       },
       "16": {
-        "filename": "user.code",
-        "line": 313
+        "filename": "User.code",
+        "line": 463
       },
       "32": {
-        "filename": "user.code",
-        "line": 316
+        "filename": "User.code",
+        "line": 466
       },
       "48": {
-        "filename": "user.code",
-        "line": 317
+        "filename": "User.code",
+        "line": 467
       },
       "56": {
-        "filename": "user.code",
-        "line": 318
+        "filename": "User.code",
+        "line": 468
       },
       "72": {
-        "filename": "user.code",
-        "line": 319
+        "filename": "User.code",
+        "line": 469
       },
       "232": {
-        "filename": "user.code",
-        "line": 320
+        "filename": "User.code",
+        "line": 470
       },
       "240": {
-        "filename": "user.code",
-        "line": 321
+        "filename": "User.code",
+        "line": 471
       },
       "248": {
-        "filename": "user.code",
-        "line": 322
+        "filename": "User.code",
+        "line": 472
       },
       "256": {
-        "filename": "user.code",
-        "line": 323
+        "filename": "User.code",
+        "line": 473
       },
       "264": {
-        "filename": "user.code",
-        "line": 324
+        "filename": "User.code",
+        "line": 474
       },
       "272": {
-        "filename": "user.code",
-        "line": 325
+        "filename": "User.code",
+        "line": 475
       },
       "288": {
-        "filename": "user.code",
-        "line": 327
+        "filename": "User.code",
+        "line": 477
       },
       "296": {
-        "filename": "user.code",
-        "line": 328
+        "filename": "User.code",
+        "line": 478
+      }
+    },
+    "db531dfda10015710f2d13bc259724812c4bac8f8c491aac35b2eab304f3360d": {
+      "0": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 30
+      },
+      "16": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 31
+      },
+      "24": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 31
+      },
+      "40": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 31
+      },
+      "48": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 31
+      },
+      "72": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 31
+      },
+      "80": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 31
+      },
+      "264": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 31
+      },
+      "288": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 31
+      },
+      "304": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 31
+      },
+      "312": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 31
+      },
+      "320": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 31
+      },
+      "336": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 35
+      },
+      "352": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 35
+      },
+      "512": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 35
+      },
+      "520": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 35
+      },
+      "528": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 35
+      },
+      "536": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 35
+      },
+      "552": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 35
+      },
+      "560": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 35
+      },
+      "568": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 35
       }
     },
     "de88119e8b27eae3e4edadfe42b62c690c35a204b903699c344023bdf9b4dc31": {
       "0": {
-        "filename": "user.code",
-        "line": 291
+        "filename": "User.code",
+        "line": 441
       },
       "8": {
-        "filename": "user.code",
-        "line": 292
+        "filename": "User.code",
+        "line": 442
       },
       "16": {
-        "filename": "user.code",
-        "line": 293
+        "filename": "User.code",
+        "line": 443
       },
       "32": {
-        "filename": "user.code",
-        "line": 296
+        "filename": "User.code",
+        "line": 446
       },
       "48": {
-        "filename": "user.code",
-        "line": 297
+        "filename": "User.code",
+        "line": 447
       },
       "56": {
-        "filename": "user.code",
-        "line": 298
+        "filename": "User.code",
+        "line": 448
       },
       "72": {
-        "filename": "user.code",
-        "line": 299
+        "filename": "User.code",
+        "line": 449
       },
       "232": {
-        "filename": "user.code",
-        "line": 300
+        "filename": "User.code",
+        "line": 450
       },
       "240": {
-        "filename": "user.code",
-        "line": 301
+        "filename": "User.code",
+        "line": 451
       },
       "248": {
-        "filename": "user.code",
-        "line": 302
+        "filename": "User.code",
+        "line": 452
       },
       "264": {
-        "filename": "user.code",
-        "line": 303
+        "filename": "User.code",
+        "line": 453
       },
       "272": {
-        "filename": "user.code",
-        "line": 304
+        "filename": "User.code",
+        "line": 454
       },
       "280": {
-        "filename": "user.code",
-        "line": 305
+        "filename": "User.code",
+        "line": 455
       },
       "296": {
-        "filename": "user.code",
-        "line": 307
+        "filename": "User.code",
+        "line": 457
       },
       "304": {
-        "filename": "user.code",
-        "line": 308
+        "filename": "User.code",
+        "line": 458
       }
     },
-    "e19da6f50f731d95267f3ddcbc68fdb4fe34312f2cbd8e25ee0a0999f2b0b8dc": {
+    "e119b8ea51f5d7e87eefaeaa703501f0bcc9b9ab70a6875e2f55bb838659f3e4": {
       "0": {
-        "filename": "user.code",
-        "line": 335
+        "filename": "User.code",
+        "line": 244
       },
       "8": {
-        "filename": "user.code",
-        "line": 336
+        "filename": "User.code",
+        "line": 245
       },
-      "56": {
-        "filename": "user.code",
-        "line": 337
+      "24": {
+        "filename": "User.code",
+        "line": 246
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 247
       },
       "64": {
-        "filename": "user.code",
-        "line": 338
+        "filename": "User.code",
+        "line": 248
       },
-      "80": {
-        "filename": "user.code",
-        "line": 341
+      "72": {
+        "filename": "User.code",
+        "line": 249
       },
       "88": {
-        "filename": "user.code",
-        "line": 342
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 81
+      },
+      "96": {
+        "filename": "User.code",
+        "line": 255
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 258
+      },
+      "120": {
+        "filename": "User.code",
+        "line": 259
       },
       "136": {
-        "filename": "user.code",
-        "line": 343
+        "filename": "User.code",
+        "line": 260
       },
       "144": {
-        "filename": "user.code",
-        "line": 344
+        "filename": "User.code",
+        "line": 261
       },
-      "160": {
-        "filename": "user.code",
-        "line": 347
+      "152": {
+        "filename": "User.code",
+        "line": 262
       },
       "168": {
-        "filename": "user.code",
-        "line": 348
+        "filename": "User.code",
+        "line": 263
       },
-      "216": {
-        "filename": "user.code",
-        "line": 349
+      "184": {
+        "filename": "User.code",
+        "line": 264
       },
-      "224": {
-        "filename": "user.code",
-        "line": 350
+      "192": {
+        "filename": "User.code",
+        "line": 265
+      },
+      "200": {
+        "filename": "User.code",
+        "line": 266
+      },
+      "208": {
+        "filename": "User.code",
+        "line": 267
+      },
+      "232": {
+        "filename": "User.code",
+        "line": 268
       },
       "240": {
-        "filename": "user.code",
+        "filename": "User.code",
+        "line": 269
+      },
+      "288": {
+        "filename": "User.code",
+        "line": 270
+      },
+      "312": {
+        "filename": "User.code",
+        "line": 271
+      },
+      "328": {
+        "filename": "User.code",
+        "line": 272
+      },
+      "336": {
+        "filename": "User.code",
+        "line": 273
+      },
+      "344": {
+        "filename": "User.code",
+        "line": 274
+      },
+      "360": {
+        "filename": "User.code",
+        "line": 276
+      },
+      "368": {
+        "filename": "User.code",
+        "line": 277
+      },
+      "376": {
+        "filename": "User.code",
+        "line": 279
+      },
+      "384": {
+        "filename": "User.code",
+        "line": 280
+      },
+      "400": {
+        "filename": "User.code",
+        "line": 283
+      }
+    },
+    "e4734f14d8f437f8c17f2d07857710a840fa34c62a6caee3acc8c6f624bbe5a0": {
+      "0": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 79
+      }
+    },
+    "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
+      "0": {
+        "filename": "User.code",
         "line": 353
       },
-      "248": {
-        "filename": "user.code",
+      "16": {
+        "filename": "User.code",
         "line": 354
       },
-      "296": {
-        "filename": "user.code",
+      "24": {
+        "filename": "User.code",
         "line": 355
       },
-      "304": {
-        "filename": "user.code",
+      "40": {
+        "filename": "User.code",
         "line": 356
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 357
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 358
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 359
+      },
+      "88": {
+        "filename": "User.code",
+        "line": 360
+      },
+      "96": {
+        "filename": "User.code",
+        "line": 361
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 362
+      },
+      "128": {
+        "filename": "User.code",
+        "line": 363
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 364
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 365
       }
     },
     "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
       "0": {
-        "filename": "user.code",
-        "line": 235
+        "filename": "User.code",
+        "line": 385
       },
       "16": {
-        "filename": "user.code",
-        "line": 236
+        "filename": "User.code",
+        "line": 386
+      }
+    },
+    "f2f53fb62a188f30aaa31abf6bfc5268f283bccffe61025e750e87e0f7bf5c50": {
+      "0": {
+        "filename": "User.code",
+        "line": 209
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 210
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 211
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 212
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 213
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 214
+      },
+      "88": {
+        "filename": "../contracts/cross-contracts/User.tsol",
+        "line": 78
+      },
+      "96": {
+        "filename": "User.code",
+        "line": 220
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 223
+      },
+      "120": {
+        "filename": "User.code",
+        "line": 224
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 227
       }
     },
     "fe195aaa95c8a67abdddf053df427fc13e837eef6185175a2110e5e12c4057d7": {
       "0": {
-        "filename": "user.code",
-        "line": 159
+        "filename": "User.code",
+        "line": 309
       },
       "16": {
-        "filename": "user.code",
-        "line": 160
+        "filename": "User.code",
+        "line": 310
       },
       "24": {
-        "filename": "user.code",
-        "line": 161
+        "filename": "User.code",
+        "line": 311
       },
       "40": {
-        "filename": "user.code",
-        "line": 162
+        "filename": "User.code",
+        "line": 312
       },
       "56": {
-        "filename": "user.code",
-        "line": 163
+        "filename": "User.code",
+        "line": 313
       },
       "72": {
-        "filename": "user.code",
-        "line": 182
+        "filename": "User.code",
+        "line": 332
       }
     }
   }

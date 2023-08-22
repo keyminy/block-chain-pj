@@ -9,16 +9,26 @@ IFREF {
 }
 GETGLOB 6
 THROWIF 51
+OVER
+PUSHCONT {
+	LDU 256
+	LDREF
+	ENDS
+	CTOS
+}
+PUSHCONT {
+	LDU 256
+}
+IFELSE
 LDU 256
 ENDS
-.loc ../contracts/cross-contracts/bank.tsol, 34
+.loc ../contracts/cross-contracts/bank.tsol, 39
 ACCEPT
-.loc ../contracts/cross-contracts/bank.tsol, 35
-GETGLOB 9
+.loc ../contracts/cross-contracts/bank.tsol, 44
 SETGLOB 10
-.loc ../contracts/cross-contracts/bank.tsol, 36
+.loc ../contracts/cross-contracts/bank.tsol, 45
 SETGLOB 12
-.loc ../contracts/cross-contracts/bank.tsol, 38
+.loc ../contracts/cross-contracts/bank.tsol, 47
 TRUE
 SETGLOB 15
 .loc ../contracts/cross-contracts/bank.tsol, 0
@@ -36,7 +46,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/cross-contracts/bank.tsol, 41
+.loc ../contracts/cross-contracts/bank.tsol, 50
 LDU 256
 ENDS
 .loc ../contracts/cross-contracts/bank.tsol, 0
@@ -50,14 +60,21 @@ CALLREF {
 THROW 0
 
 .macro configuredInterestRate_34bc7de2_internal_macro
-.loc ../contracts/cross-contracts/bank.tsol, 28
-GETGLOB 9
+.loc ../contracts/cross-contracts/bank.tsol, 30
+GETGLOB 5
+DUP
+ISNULL
+PUSHCONT {
+	DROP
+	PUSHINT 0
+}
+IF
 GETGLOB 10
-SDEQ
+EQUAL
 THROWIFNOT 1001
-.loc ../contracts/cross-contracts/bank.tsol, 42
+.loc ../contracts/cross-contracts/bank.tsol, 51
 ACCEPT
-.loc ../contracts/cross-contracts/bank.tsol, 43
+.loc ../contracts/cross-contracts/bank.tsol, 52
 SETGLOB 12
 .loc ../contracts/cross-contracts/bank.tsol, 0
 
@@ -70,7 +87,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/cross-contracts/bank.tsol, 46
+.loc ../contracts/cross-contracts/bank.tsol, 55
 LDU 256
 ENDS
 .loc ../contracts/cross-contracts/bank.tsol, 0
@@ -84,20 +101,30 @@ CALLREF {
 THROW 0
 
 .macro loan_365a5306_internal_macro
-.loc ../contracts/cross-contracts/bank.tsol, 47
-ACCEPT
-.loc ../contracts/cross-contracts/bank.tsol, 49
+.loc ../contracts/cross-contracts/bank.tsol, 60
 GETGLOB 15
 THROWIFNOT 1002
-.loc ../contracts/cross-contracts/bank.tsol, 50
+.loc ../contracts/cross-contracts/bank.tsol, 61
 SETGLOB 14
-.loc ../contracts/cross-contracts/bank.tsol, 51
+.loc ../contracts/cross-contracts/bank.tsol, 62
 GETGLOB 9
 SETGLOB 11
-.loc ../contracts/cross-contracts/bank.tsol, 52
+.loc ../contracts/cross-contracts/bank.tsol, 63
 FALSE
 SETGLOB 15
-.loc ../contracts/cross-contracts/bank.tsol, 54
+.loc ../contracts/cross-contracts/bank.tsol, 65
+GETGLOB 14
+GETGLOB 11
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 42045022170482489768618347945393405442362961660390
+STUR 167
+STU 256
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/cross-contracts/bank.tsol, 66
 GETGLOB 14
 GETGLOB 11
 PUSHSLICE xc000000000000000000000000039ac893e
@@ -110,6 +137,63 @@ PUSHINT 0
 SENDRAWMSG
 .loc ../contracts/cross-contracts/bank.tsol, 0
 
+.macro calulating
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/cross-contracts/bank.tsol, 70
+ENDS
+.loc ../contracts/cross-contracts/bank.tsol, 0
+CALLREF {
+	CALL $calulating_7e70f704_internal_macro$
+}
+OVER
+PUSHCONT {
+	PUSH S3
+	CTOS
+	LDU 2
+	LDMSGADDR
+	DROP
+	NIP
+	NEWC
+	STSLICECONST xc
+	STSLICE
+	PUSHINT 2165670166
+	STUR 130
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+PUSHCONT {
+	DROP
+}
+IFELSE
+IFREF {
+	CALL $upd_only_time_in_c4$
+}
+THROW 0
+
+.globl	calulating_7e70f704_internal
+.type	calulating_7e70f704_internal, @function
+CALL $calulating_7e70f704_internal_macro$
+
+.macro calulating_7e70f704_internal_macro
+.loc ../contracts/cross-contracts/bank.tsol, 72
+GETGLOB 14
+PUSHINT 100
+GETGLOB 12
+ADD
+MUL
+PUSHINT 100
+DIV
+.loc ../contracts/cross-contracts/bank.tsol, 0
+
 .macro repaying
 DROP
 GETGLOB 6
@@ -119,11 +203,12 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/cross-contracts/bank.tsol, 58
+.loc ../contracts/cross-contracts/bank.tsol, 76
+LDU 128
 ENDS
 .loc ../contracts/cross-contracts/bank.tsol, 0
 CALLREF {
-	CALL $repaying_fbab9aef_internal_macro$
+	CALL $repaying_77aba224_internal_macro$
 }
 DROP
 CALLREF {
@@ -131,23 +216,47 @@ CALLREF {
 }
 THROW 0
 
-.macro repaying_fbab9aef_internal_macro
-.loc ../contracts/cross-contracts/bank.tsol, 59
-ACCEPT
-.loc ../contracts/cross-contracts/bank.tsol, 61
+.macro repaying_77aba224_internal_macro
+.loc ../contracts/cross-contracts/bank.tsol, 77
 GETGLOB 9
 GETGLOB 11
 SDEQ
 THROWIFNOT 1003
-.loc ../contracts/cross-contracts/bank.tsol, 63
-GETGLOB 14
-PUSHINT 100
-GETGLOB 12
-ADD
-MUL
-PUSHINT 100
-DIV
-.loc ../contracts/cross-contracts/bank.tsol, 64
+.loc ../contracts/cross-contracts/bank.tsol, 80
+DUP
+CALLREF {
+	CALL $calulating_7e70f704_internal_macro$
+}
+NEQ
+PUSHCONT {
+	.loc ../contracts/cross-contracts/bank.tsol, 81
+	GETGLOB 11
+	NEWC
+	STSLICECONST x62_
+	STSLICE
+	PUSHINT 42045022170482489768618347945393405442361928471146
+	STUR 167
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+	.loc ../contracts/cross-contracts/bank.tsol, 82
+	DROP
+	.loc ../contracts/cross-contracts/bank.tsol, 0
+}
+IFJMP
+.loc ../contracts/cross-contracts/bank.tsol, 87
+DUP
+GETGLOB 11
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 42045022170482489768618347945393405442362137516237
+STUR 167
+STU 256
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/cross-contracts/bank.tsol, 89
 DUP
 GETGLOB 14
 SUB
@@ -155,15 +264,15 @@ UFITS 256
 GETGLOB 13
 ADD
 SETGLOB 13
-.loc ../contracts/cross-contracts/bank.tsol, 65
+.loc ../contracts/cross-contracts/bank.tsol, 90
 PUSHINT 0
 SETGLOB 14
-.loc ../contracts/cross-contracts/bank.tsol, 67
+.loc ../contracts/cross-contracts/bank.tsol, 92
 TRUE
 SETGLOB 15
-.loc ../contracts/cross-contracts/bank.tsol, 69
+.loc ../contracts/cross-contracts/bank.tsol, 95
 GETGLOB 11
-PUSHSLICE xc0000000000000000000000000568314db
+PUSHSLICE xc00000000000000000000000005bdb982d
 NEWC
 STSLICE
 STSLICE
@@ -173,6 +282,100 @@ PUSHINT 0
 SENDRAWMSG
 .loc ../contracts/cross-contracts/bank.tsol, 0
 
+.macro getInterestRate
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/cross-contracts/bank.tsol, 97
+ENDS
+.loc ../contracts/cross-contracts/bank.tsol, 0
+CALLREF {
+	CALL $getInterestRate_5257b566_internal_macro$
+}
+OVER
+PUSHCONT {
+	PUSH S3
+	CTOS
+	LDU 2
+	LDMSGADDR
+	DROP
+	NIP
+	NEWC
+	STSLICECONST xc
+	STSLICE
+	PUSHINT 2626071180
+	STUR 130
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+PUSHCONT {
+	DROP
+}
+IFELSE
+IFREF {
+	CALL $upd_only_time_in_c4$
+}
+THROW 0
+
+.macro getInterestRate_5257b566_internal_macro
+.loc ../contracts/cross-contracts/bank.tsol, 98
+GETGLOB 12
+.loc ../contracts/cross-contracts/bank.tsol, 0
+
+.macro getProfit
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/cross-contracts/bank.tsol, 101
+ENDS
+.loc ../contracts/cross-contracts/bank.tsol, 0
+CALLREF {
+	CALL $getProfit_679dffb4_internal_macro$
+}
+OVER
+PUSHCONT {
+	PUSH S3
+	CTOS
+	LDU 2
+	LDMSGADDR
+	DROP
+	NIP
+	NEWC
+	STSLICECONST xc
+	STSLICE
+	PUSHINT 2718981390
+	STUR 130
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+PUSHCONT {
+	DROP
+}
+IFELSE
+IFREF {
+	CALL $upd_only_time_in_c4$
+}
+THROW 0
+
+.macro getProfit_679dffb4_internal_macro
+.loc ../contracts/cross-contracts/bank.tsol, 102
+GETGLOB 13
+.loc ../contracts/cross-contracts/bank.tsol, 0
+
 .macro c4_to_c7
 PUSHROOT
 CTOS
@@ -180,7 +383,7 @@ LDU 256 ; pubkey c4
 LDU 64 ; pubkey timestamp c4
 LDU 1 ; ctor flag
 NIP
-LDMSGADDR
+LDU 256
 LDREF
 ENDS
 CTOS
@@ -212,10 +415,10 @@ PUSHCONT {
 	PUSHROOT
 	CTOS
 	PLDDICT ; D
+	PUSHINT 0
 	PUSHREFSLICE {
 		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
 	}
-	DUP
 	PUSHINT 0
 	BLKPUSH 3, 0
 	SETGLOB 15
@@ -249,7 +452,7 @@ NEWC
 STU 256
 STU 64
 STONE
-STSLICE
+STU 256
 ROLLREV 5
 NEWC
 STSLICE
@@ -338,6 +541,8 @@ PUSHCONT {
 	HASHSU ; signatureSlice msgSlice hashMsgSlice
 	ROT
 	GETGLOB 2
+	DUP
+	SETGLOB 5
 	CHKSIGNU ; msgSlice isSigned
 	THROWIFNOT 40
 }
@@ -361,10 +566,10 @@ CALLREF {
 GETGLOB 10
 OVER
 PUSHCONT {
-	PUSHSLICE xc0000000000000000000000000df0bcfde
+	PUSHSLICE xc00000000000000000000000009178e9bd
 	NEWC
 	STSLICE
-	STSLICE
+	STU 256
 	ENDC
 	PUSHINT 0
 	SENDRAWMSG
@@ -474,9 +679,15 @@ THROW 0
 
 .macro public_function_selector
 DUP
-PUSHINT 616522273
+PUSHINT 353487513
 LEQ
 IFJMPREF {
+	DUP
+	PUSHINT 18186518
+	EQUAL
+	IFJMPREF {
+		CALL $calulating$
+	}
 	DUP
 	PUSHINT 126922600
 	EQUAL
@@ -484,10 +695,10 @@ IFJMPREF {
 		CALL $user$
 	}
 	DUP
-	PUSHINT 165551419
+	PUSHINT 293136829
 	EQUAL
 	IFJMPREF {
-		CALL $repaying$
+		CALL $owner$
 	}
 	DUP
 	PUSHINT 353487513
@@ -495,28 +706,51 @@ IFJMPREF {
 	IFJMPREF {
 		CALL $loan$
 	}
+}
+DUP
+PUSHINT 735588267
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 478587532
+	EQUAL
+	IFJMPREF {
+		CALL $getInterestRate$
+	}
+	DUP
+	PUSHINT 571497742
+	EQUAL
+	IFJMPREF {
+		CALL $getProfit$
+	}
 	DUP
 	PUSHINT 616522273
 	EQUAL
 	IFJMPREF {
 		CALL $interestRate$
 	}
-}
-DUP
-PUSHINT 1016193477
-LEQ
-IFJMPREF {
 	DUP
 	PUSHINT 735588267
 	EQUAL
 	IFJMPREF {
 		CALL $configuredInterestRate$
 	}
+}
+DUP
+PUSHINT 1215270409
+LEQ
+IFJMPREF {
 	DUP
 	PUSHINT 989214594
 	EQUAL
 	IFJMPREF {
 		CALL $bankProfit$
+	}
+	DUP
+	PUSHINT 994403762
+	EQUAL
+	IFJMPREF {
+		CALL $repaying$
 	}
 	DUP
 	PUSHINT 995555877
@@ -525,7 +759,7 @@ IFJMPREF {
 		CALL $isLoanAvailable$
 	}
 	DUP
-	PUSHINT 1016193477
+	PUSHINT 1215270409
 	EQUAL
 	IFJMPREF {
 		CALL $constructor$
@@ -533,19 +767,8 @@ IFJMPREF {
 }
 DUP
 PUSHINT 1898875963
-LEQ
+EQUAL
 IFJMPREF {
-	DUP
-	PUSHINT 1594609630
-	EQUAL
-	IFJMPREF {
-		CALL $owner$
-	}
-	DUP
-	PUSHINT 1898875963
-	EQUAL
-	IFJMPREF {
-		CALL $loanNum$
-	}
+	CALL $loanNum$
 }
 

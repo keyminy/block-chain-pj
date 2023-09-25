@@ -11,19 +11,19 @@ GETGLOB 6
 THROWIF 51
 LDU 8
 ENDS
-.loc ../contracts/numSequence.tsol, 12
+.loc ../contracts/NumSequence.tsol, 12
 ACCEPT
-.loc ../contracts/numSequence.tsol, 13
+.loc ../contracts/NumSequence.tsol, 13
 PUSHINT 0
 SETGLOB 11
-.loc ../contracts/numSequence.tsol, 14
+.loc ../contracts/NumSequence.tsol, 14
 PUSHINT 0
 PUSHCONT {
 	PUSH2 S0, S1
 	LESS
 }
 PUSHCONT {
-	.loc ../contracts/numSequence.tsol, 15
+	.loc ../contracts/NumSequence.tsol, 15
 	GETGLOB 10
 	PUSHPOW2DEC 8
 	RAND
@@ -38,7 +38,7 @@ PUSHCONT {
 	DICTUSETB
 	PAIR
 	SETGLOB 10
-	.loc ../contracts/numSequence.tsol, 16
+	.loc ../contracts/NumSequence.tsol, 16
 	DUP
 	GETGLOB 10
 	SECOND
@@ -50,13 +50,13 @@ PUSHCONT {
 	ADD
 	UFITS 16
 	SETGLOB 11
-	.loc ../contracts/numSequence.tsol, 14
+	.loc ../contracts/NumSequence.tsol, 14
 	INC
-	.loc ../contracts/numSequence.tsol, 0
+	.loc ../contracts/NumSequence.tsol, 0
 }
 WHILE
 DROP2
-.loc ../contracts/numSequence.tsol, 0
+.loc ../contracts/NumSequence.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -71,7 +71,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/numSequence.tsol, 20
+.loc ../contracts/NumSequence.tsol, 20
 OVER
 PUSHCONT {
 	LDREF
@@ -81,7 +81,7 @@ PUSHCONT {
 IF
 LDU 256
 ENDS
-.loc ../contracts/numSequence.tsol, 0
+.loc ../contracts/NumSequence.tsol, 0
 CALLREF {
 	CALL $check_5f72f450_internal_macro$
 }
@@ -96,12 +96,12 @@ THROW 0
 CALL $check_5f72f450_internal_macro$
 
 .macro check_5f72f450_internal_macro
-.loc ../contracts/numSequence.tsol, 21
+.loc ../contracts/NumSequence.tsol, 21
 ACCEPT
-.loc ../contracts/numSequence.tsol, 22
+.loc ../contracts/NumSequence.tsol, 22
 PUSHINT 0
 DUP
-.loc ../contracts/numSequence.tsol, 23
+.loc ../contracts/NumSequence.tsol, 23
 PUSHCONT {
 	DUP
 	GETGLOB 10
@@ -109,7 +109,7 @@ PUSHCONT {
 	LESS
 }
 PUSHCONT {
-	.loc ../contracts/numSequence.tsol, 24
+	.loc ../contracts/NumSequence.tsol, 24
 	DUP
 	GETGLOB 10
 	SECOND
@@ -120,19 +120,19 @@ PUSHCONT {
 	PUSH S2
 	ADD
 	POP S2
-	.loc ../contracts/numSequence.tsol, 23
+	.loc ../contracts/NumSequence.tsol, 23
 	INC
-	.loc ../contracts/numSequence.tsol, 0
+	.loc ../contracts/NumSequence.tsol, 0
 }
 WHILE
 DROP
-.loc ../contracts/numSequence.tsol, 28
+.loc ../contracts/NumSequence.tsol, 28
 EQUAL
 THROWIFNOT 1001
-.loc ../contracts/numSequence.tsol, 30
+.loc ../contracts/NumSequence.tsol, 30
 PUSHINT 0
 SETGLOB 11
-.loc ../contracts/numSequence.tsol, 31
+.loc ../contracts/NumSequence.tsol, 31
 PUSHINT 0
 PUSHCONT {
 	DUP
@@ -141,7 +141,7 @@ PUSHCONT {
 	LESS
 }
 PUSHCONT {
-	.loc ../contracts/numSequence.tsol, 32
+	.loc ../contracts/NumSequence.tsol, 32
 	GETGLOB 10
 	UNPAIR
 	PUXC S2, S-1
@@ -155,13 +155,13 @@ PUSHCONT {
 	DICTUSETB
 	PAIR
 	SETGLOB 10
-	.loc ../contracts/numSequence.tsol, 31
+	.loc ../contracts/NumSequence.tsol, 31
 	INC
-	.loc ../contracts/numSequence.tsol, 0
+	.loc ../contracts/NumSequence.tsol, 0
 }
 WHILE
 DROP
-.loc ../contracts/numSequence.tsol, 36
+.loc ../contracts/NumSequence.tsol, 36
 PUSHINT 0
 PUSHCONT {
 	DUP
@@ -170,7 +170,7 @@ PUSHCONT {
 	LESS
 }
 PUSHCONT {
-	.loc ../contracts/numSequence.tsol, 37
+	.loc ../contracts/NumSequence.tsol, 37
 	PUSHPOW2DEC 8
 	RAND
 	GETGLOB 10
@@ -187,7 +187,7 @@ PUSHCONT {
 	DICTUSETB
 	PAIR
 	SETGLOB 10
-	.loc ../contracts/numSequence.tsol, 38
+	.loc ../contracts/NumSequence.tsol, 38
 	DUP
 	GETGLOB 10
 	SECOND
@@ -199,13 +199,13 @@ PUSHCONT {
 	ADD
 	UFITS 16
 	SETGLOB 11
-	.loc ../contracts/numSequence.tsol, 36
+	.loc ../contracts/NumSequence.tsol, 36
 	INC
-	.loc ../contracts/numSequence.tsol, 0
+	.loc ../contracts/NumSequence.tsol, 0
 }
 WHILE
 DROP
-.loc ../contracts/numSequence.tsol, 42
+.loc ../contracts/NumSequence.tsol, 42
 GETGLOB 10
 PUSHSLICE xc00000000000000000000000004246eec6
 NEWC
@@ -218,7 +218,7 @@ STDICT
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/numSequence.tsol, 0
+.loc ../contracts/NumSequence.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT

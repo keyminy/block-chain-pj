@@ -1,10 +1,11 @@
-import { Contract, fromNano, Signer, toNano } from "locklift";
+import { Contract, fromNano, Signer, toNano, WalletTypes } from "locklift";
 import { FactorySource } from "../build/factorySource";
 import { expect } from "chai";
+import { Account } from "everscale-standalone-client";
 
 let ping: Contract<FactorySource["Ping"]>;
 let pong: Contract<FactorySource["Pong"]>;
-
+let user: Account;
 let signer1: Signer;
 
 describe("PingPong", async function () {
@@ -13,12 +14,19 @@ describe("PingPong", async function () {
   });
   describe("Contracts", async function () {
     it("Deploy ping and pong", async function () {
+      await locklift.factory.accounts
+        .addNewAccount({
+          type: WalletTypes.EverWallet,
+          value: toNano(10),
+          publicKey: signer1.publicKey,
+        })
+        .then(res => (user = res.account));
       ping = await locklift.factory
         .deployContract({
           contract: "Ping",
           initParams: {},
           constructorParams: {},
-          value: toNano(10),
+          value: toNano(1),
           publicKey: signer1.publicKey,
         })
         .then(res => res.contract);
@@ -28,7 +36,7 @@ describe("PingPong", async function () {
           contract: "Pong",
           initParams: {},
           constructorParams: {},
-          value: toNano(10),
+          value: toNano(1),
           publicKey: signer1.publicKey,
         })
         .then(res => res.contract);
@@ -41,8 +49,9 @@ describe("PingPong", async function () {
             _message: "Hello, world!",
             _pong: pong.address,
           })
-          .sendExternal({
-            publicKey: signer1.publicKey,
+          .send({
+            from: user.address,
+            amount: toNano(1),
           }),
       );
       await traceTree?.beautyPrint();

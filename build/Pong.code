@@ -10,9 +10,9 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc ../contracts/cross-contracts/Pong.tsol, 9
+.loc ../contracts/ping-pong/Pong.tsol, 11
 ACCEPT
-.loc ../contracts/cross-contracts/Pong.tsol, 0
+.loc ../contracts/ping-pong/Pong.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -27,12 +27,23 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/cross-contracts/Pong.tsol, 12
-LDREF
+.loc ../contracts/ping-pong/Pong.tsol, 14
+OVER
+PUSHCONT {
+	LDREF
+	LDREF
+	ENDS
+	CTOS
+}
+PUSHCONT {
+	LDREF
+}
+IFELSE
+LDMSGADDR
 ENDS
-.loc ../contracts/cross-contracts/Pong.tsol, 0
+.loc ../contracts/ping-pong/Pong.tsol, 0
 CALLREF {
-	CALL $pong_07cbff9a_internal_macro$
+	CALL $pong_6cf532b7_internal_macro$
 }
 DROP
 CALLREF {
@@ -40,28 +51,38 @@ CALLREF {
 }
 THROW 0
 
-.globl	pong_07cbff9a_internal
-.type	pong_07cbff9a_internal, @function
-CALL $pong_07cbff9a_internal_macro$
+.globl	pong_6cf532b7_internal
+.type	pong_6cf532b7_internal, @function
+CALL $pong_6cf532b7_internal_macro$
 
-.macro pong_07cbff9a_internal_macro
-.loc ../contracts/cross-contracts/Pong.tsol, 13
+.macro pong_6cf532b7_internal_macro
+.loc ../contracts/ping-pong/Pong.tsol, 15
+PUSHINT 1000000000
+PUSHINT 0
+RAWRESERVE
+.loc ../contracts/ping-pong/Pong.tsol, 16
 GETGLOB 10
 INC
 UFITS 32
 SETGLOB 10
-.loc ../contracts/cross-contracts/Pong.tsol, 14
+.loc ../contracts/ping-pong/Pong.tsol, 17
+SWAP
 GETGLOB 9
 NEWC
 STSLICECONST x62_
 STSLICE
-PUSHINT 42045022170482489768618347945393405442362472243772
-STUR 167
+PUSHINT 1
+STUR 111
+ROTREV
+NEWC
+STSLICECONST x5301bcfc
 STREF
+STSLICE
+STBREFR
 ENDC
-PUSHINT 0
+PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/cross-contracts/Pong.tsol, 0
+.loc ../contracts/ping-pong/Pong.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT
@@ -241,16 +262,16 @@ THROW 0
 
 .macro public_function_selector
 DUP
+PUSHINT 126976868
+EQUAL
+IFJMPREF {
+	CALL $pong$
+}
+DUP
 PUSHINT 516731187
 EQUAL
 IFJMPREF {
 	CALL $countOfCalls$
-}
-DUP
-PUSHINT 1521399034
-EQUAL
-IFJMPREF {
-	CALL $pong$
 }
 DUP
 PUSHINT 1756716863

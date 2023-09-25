@@ -3,7 +3,7 @@ pragma AbiHeader expire;
 pragma AbiHeader pubkey;
 
 
-contract numSequence {
+contract NumSequence {
     uint8[] public arr;
     uint16 public sum;
     event complete(uint8[] arr);

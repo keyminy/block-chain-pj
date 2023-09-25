@@ -1,18 +1,10 @@
 {
 	"ABI version": 2,
-	"version": "2.3",
+	"version": "2.2",
 	"header": ["time"],
 	"functions": [
 		{
 			"name": "constructor",
-			"inputs": [
-				{"name":"_interestRate","type":"uint256"}
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "configuredInterestRate",
 			"inputs": [
 				{"name":"_interestRate","type":"uint256"}
 			],
@@ -28,10 +20,43 @@
 			]
 		},
 		{
-			"name": "repaying",
+			"name": "configuredInterestRate",
+			"inputs": [
+				{"name":"_interestRate","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "calculating",
 			"inputs": [
 			],
 			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "repaying",
+			"inputs": [
+				{"name":"_repayAmount","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getInterestRate",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "getProfit",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
 			]
 		},
 		{
@@ -39,7 +64,7 @@
 			"inputs": [
 			],
 			"outputs": [
-				{"name":"owner","type":"address"}
+				{"name":"owner","type":"uint256"}
 			]
 		},
 		{
@@ -67,19 +92,19 @@
 			]
 		},
 		{
-			"name": "loanNum",
-			"inputs": [
-			],
-			"outputs": [
-				{"name":"loanNum","type":"uint256"}
-			]
-		},
-		{
 			"name": "isLoanAvailable",
 			"inputs": [
 			],
 			"outputs": [
 				{"name":"isLoanAvailable","type":"bool"}
+			]
+		},
+		{
+			"name": "loanNum",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"loanNum","type":"uint256"}
 			]
 		}
 	],
@@ -96,7 +121,7 @@
 			]
 		},
 		{
-			"name": "Repay",
+			"name": "RepayfromUserSuccess",
 			"inputs": [
 				{"name":"user","type":"address"},
 				{"name":"TotalRepay","type":"uint256"}
@@ -109,11 +134,11 @@
 		{"name":"_pubkey","type":"uint256"},
 		{"name":"_timestamp","type":"uint64"},
 		{"name":"_constructorFlag","type":"bool"},
-		{"name":"owner","type":"address"},
+		{"name":"owner","type":"uint256"},
 		{"name":"user","type":"address"},
 		{"name":"interestRate","type":"uint256"},
 		{"name":"bankProfit","type":"uint256"},
-		{"name":"loanNum","type":"uint256"},
-		{"name":"isLoanAvailable","type":"bool"}
+		{"name":"isLoanAvailable","type":"bool"},
+		{"name":"loanNum","type":"uint256"}
 	]
 }

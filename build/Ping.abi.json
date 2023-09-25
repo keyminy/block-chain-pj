@@ -22,7 +22,8 @@
 		{
 			"name": "pingCallback",
 			"inputs": [
-				{"name":"message","type":"string"}
+				{"name":"message","type":"string"},
+				{"name":"_initialSender","type":"address"}
 			],
 			"outputs": [
 			]

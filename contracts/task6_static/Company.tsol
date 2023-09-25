@@ -1,0 +1,102 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >=0.62.0;
+import "./Worker.tsol";
+import "./Errors.tsol";
+import "./Gas.tsol";
+
+contract Company {
+  /*
+   // signer의 publicKey를 받는 변수
+//    uint256 public owner;
+*/
+  address static owner;
+  TvmCell static workerCode;
+
+  mapping(address => bool) workers;
+
+  uint128 public salary = 132;
+
+  uint128 totalSalaryPayed;
+
+  /* event */
+  event NewWorkerRegistered(address worker, address workerOwner);
+  event SalaryPayed(address worker, uint128 salary, uint128 totalSalaryPayed);
+
+  /* modifier */
+  modifier onlyOwner() {
+    require(msg.sender == owner, Errors.NOT_OWNER);
+    _;
+  }
+  modifier onlyWorker(uint256 _workerPubKey, address _workerOwner) {
+    require(getWorkerAddress(_workerPubKey, _workerOwner) == msg.sender, Errors.NOT_WORKER);
+    _;
+  }
+  modifier onlyRegisteredWorker() {
+    require(workers.exists(msg.sender), Errors.WORKER_NOT_REGISTERED);
+    _;
+  }
+
+  constructor() public {
+    tvm.accept();
+  }
+
+  function getWorkerAddress(uint256 _workerPubKey, address _workerOwner) internal returns (address) {
+    TvmCell workerInitState = tvm.buildStateInit({
+      contr: Worker,
+      //varInit : worker contract에 있는 변수들임
+      varInit: { owner: _workerOwner, company: address(this) },
+      pubkey: _workerPubKey,
+      code: workerCode
+    });
+
+    return address(tvm.hash(workerInitState));
+  }
+
+  //1.register worker
+  function registerWorker(address _worker) public onlyOwner {
+    tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
+    // Worker등록, 요청을 보낸 사람이 Company인지 확인한다.(onlyCompany)
+    Worker(_worker).acceptRegistration{ value: 0, flag: 128 }();
+  }
+
+  //Worker Contract에서 수행, 등록하기
+  function finishWorkerRegistration(
+    uint256 _workerPubKey,
+    address _workerOwner
+  ) external onlyWorker(_workerPubKey, _workerOwner) {
+    //worker의 pubkey와 + worker주소
+    tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
+    addWorkerToStore(msg.sender, _workerOwner);
+  }
+
+  function addWorkerToStore(address _worker, address _workerOwner) internal {
+    workers[msg.sender] = true;
+    emit NewWorkerRegistered(_worker, _workerOwner);
+    //transfer : 메시지 보낸다
+    owner.transfer({ value: 0, flag: 128 });
+  }
+
+  //2.do work
+  //unregistered worker cant work
+  //worker receive salary for each work (salary is configured in company) and save it in his contract
+  function doWork(
+    uint256 _workerPubKey,
+    address _workerOwner
+  ) external onlyWorker(_workerPubKey, _workerOwner) onlyRegisteredWorker {
+    tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
+    workProcessing(msg.sender);
+  }
+
+  function workProcessing(address _worker) internal {
+    //each time salary is doubled
+    salary = salary * 2;
+    totalSalaryPayed += salary;
+    emit SalaryPayed(_worker, salary, totalSalaryPayed);
+    //msg.sender(address type)은 이미 배포되어 있는 Worker 컨타랙의 주소여야 합니다.
+    Worker(msg.sender).receiveSalary{ value: 0, flag: 128 }(salary);
+  }
+
+  function getDetails() external view returns (uint128 _salary, uint128 _totalSalaryPayed) {
+    return (salary, totalSalaryPayed);
+  }
+}

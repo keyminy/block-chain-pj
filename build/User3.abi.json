@@ -1,6 +1,6 @@
 {
 	"ABI version": 2,
-	"version": "2.3",
+	"version": "2.2",
 	"header": ["time"],
 	"functions": [
 		{
@@ -29,37 +29,6 @@
 			]
 		},
 		{
-			"name": "repayLoan",
-			"inputs": [
-				{"name":"_repayAmount","type":"uint128"}
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "repayAccepted",
-			"inputs": [
-				{"name":"_totalRepayAmount","type":"uint256"}
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "repayRejected",
-			"inputs": [
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "getMoney",
-			"inputs": [
-			],
-			"outputs": [
-				{"name":"_money","type":"uint256"}
-			]
-		},
-		{
 			"name": "money",
 			"inputs": [
 			],
@@ -68,11 +37,11 @@
 			]
 		},
 		{
-			"name": "Bank",
+			"name": "bank",
 			"inputs": [
 			],
 			"outputs": [
-				{"name":"Bank","type":"address"}
+				{"name":"bank","type":"address"}
 			]
 		}
 	],
@@ -89,18 +58,18 @@
 			]
 		},
 		{
-			"name": "LoanRepay",
+			"name": "receivedSuccess",
 			"inputs": [
-				{"name":"user","type":"address"},
-				{"name":"repayAmount","type":"uint256"}
+				{"name":"_loanNum","type":"uint256"}
 			],
 			"outputs": [
 			]
 		},
 		{
-			"name": "receivedSuccess",
+			"name": "LoanRepay",
 			"inputs": [
-				{"name":"_loanNum","type":"uint256"}
+				{"name":"user","type":"address"},
+				{"name":"repayAmount","type":"uint256"}
 			],
 			"outputs": [
 			]
@@ -127,6 +96,6 @@
 		{"name":"_timestamp","type":"uint64"},
 		{"name":"_constructorFlag","type":"bool"},
 		{"name":"money","type":"uint256"},
-		{"name":"Bank","type":"address"}
+		{"name":"bank","type":"address"}
 	]
 }

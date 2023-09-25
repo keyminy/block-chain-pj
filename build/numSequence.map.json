@@ -2,849 +2,849 @@
   "map": {
     "092842794b16c13579197c350f3032d5f7c8d9ce8ac22a38454b6dfe6082fa46": {
       "0": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 4
       },
       "8": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 5
       },
       "24": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 6
       },
       "32": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 7
       },
       "48": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 10
       },
       "64": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 11
       },
       "80": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 12
       },
       "96": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 13
       },
       "104": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 12
       },
       "120": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 13
       },
       "128": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 13
       },
       "144": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 14
       },
       "152": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 14
       },
       "160": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 14
       },
       "176": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 14
       },
       "184": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 14
       },
       "200": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "216": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "232": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "248": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "256": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "272": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "280": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "296": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "304": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "312": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "328": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "344": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "360": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "376": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 15
       },
       "392": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 16
       },
       "400": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 16
       },
       "416": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 16
       },
       "432": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 16
       },
       "448": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 16
       },
       "464": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 16
       },
       "480": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 16
       },
       "504": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 16
       },
       "520": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 16
       },
       "528": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 16
       },
       "544": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 16
       },
       "560": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 14
       },
       "568": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 57
       },
       "576": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 58
       },
       "584": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 60
       },
       "600": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 63
       }
     },
     "10527d8dd010a7dcf2056169da969df114ebddba50d65df5762d0bf5019e4d47": {
       "0": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 21
       },
       "16": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 22
       },
       "24": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 22
       },
       "32": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 23
       },
       "40": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 23
       },
       "48": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 23
       },
       "64": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 23
       },
       "80": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 23
       },
       "88": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 23
       },
       "104": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 24
       },
       "112": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 24
       },
       "128": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 24
       },
       "144": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 24
       },
       "160": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 24
       },
       "176": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 24
       },
       "192": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 24
       },
       "216": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 24
       },
       "224": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 24
       },
       "232": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 24
       },
       "240": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 23
       },
       "248": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 127
       },
       "256": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 128
       },
       "264": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 28
       },
       "272": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 28
       },
       "296": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 30
       },
       "304": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 30
       },
       "320": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 31
       },
       "328": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 31
       },
       "336": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 31
       },
       "344": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 31
       },
       "360": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 31
       },
       "376": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 31
       },
       "384": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 31
       },
       "400": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "416": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "432": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "448": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "464": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "472": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "488": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "496": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "520": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "528": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "544": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "560": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "576": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 32
       },
       "592": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 31
       },
       "600": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 162
       },
       "608": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 163
       },
       "616": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 36
       },
       "624": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 36
       },
       "632": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 36
       },
       "640": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 36
       },
       "656": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 36
       },
       "672": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 36
       }
     },
     "28e899f097d7418e06c400833b3deb874883ca9d37f8a6a658f1df16b0362722": {
       "0": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 271
       },
       "16": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 272
       },
       "32": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 273
       },
       "48": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 274
       },
       "64": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 275
       },
       "72": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 276
       },
       "88": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 277
       },
       "104": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 278
       },
       "120": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 279
       },
       "128": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 280
       },
       "144": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 281
       },
       "152": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 282
       },
       "168": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 283
       },
       "184": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 284
       },
       "200": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 285
       },
       "208": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 286
       }
     },
     "328ebf1dc089b150d403c3eff21c2f0ecb349870e72dd7a9f892bd6c7f3e3f4f": {
       "0": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 415
       },
       "8": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 416
       },
       "16": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 417
       },
       "32": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 420
       },
       "48": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 421
       },
       "56": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 422
       },
       "72": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 423
       },
       "232": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 424
       },
       "240": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 425
       },
       "248": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 426
       },
       "264": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 427
       },
       "272": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 428
       },
       "280": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 429
       },
       "296": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 431
       },
       "304": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 432
       }
     },
     "46c5d7af231119f6a6e4bef09dd07b848a113cd970e545ebcdc86cd0b3cf81d4": {
       "0": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 36
       },
       "16": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "32": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "48": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "64": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "80": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "96": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "112": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "120": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "136": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "152": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "160": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "176": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "184": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "200": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "216": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "232": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 37
       },
       "248": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 38
       },
       "256": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 38
       },
       "272": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 38
       },
       "288": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 38
       },
       "304": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 38
       },
       "320": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 38
       },
       "336": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 38
       },
       "360": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 38
       },
       "376": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 38
       },
       "384": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 38
       },
       "400": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 38
       },
       "416": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 36
       },
       "424": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 206
       },
       "432": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 207
       },
       "440": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       },
       "456": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       },
       "616": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       },
       "624": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       },
       "632": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       },
       "640": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       },
       "656": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       },
       "664": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       },
       "680": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       },
       "696": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       },
       "704": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       },
       "712": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 42
       }
     },
     "48aff47cc44b957d0386a8004285a8ae3251f9188484415ca7c990f3e1255d6f": {
       "0": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 337
       },
       "16": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 338
       },
       "24": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 339
       },
       "40": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 340
       },
       "56": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 341
       },
       "72": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 342
       },
       "80": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 343
       },
       "96": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 346
       },
       "112": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 347
       },
       "120": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 348
       },
       "136": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 349
       },
       "152": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 350
       },
       "168": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 351
       },
       "176": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 352
       },
       "192": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 353
       },
       "200": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 354
       },
       "216": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 355
       },
       "224": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 356
       },
       "232": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 357
       },
       "248": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 358
       },
       "256": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 359
       },
       "264": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 361
       },
       "272": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 362
       },
       "280": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 363
       },
       "296": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 365
       },
       "304": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 366
       },
       "320": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 367
       },
       "336": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 369
       },
       "344": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 370
       },
       "360": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 371
       },
       "368": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 372
       },
       "384": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 374
       },
       "392": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 375
       },
       "408": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 376
       },
       "416": {
@@ -900,113 +900,113 @@
         "line": 63
       },
       "608": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 378
       },
       "624": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 379
       },
       "632": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 380
       },
       "648": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 381
       },
       "656": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 382
       },
       "672": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 383
       },
       "688": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 384
       },
       "696": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 385
       },
       "712": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 388
       }
     },
     "49ada815d6abe301fede91e23f3569209e91dc002c77e3fa92275471e0617e1d": {
       "0": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 66
       },
       "8": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 67
       },
       "24": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 68
       },
       "48": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 69
       },
       "64": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 70
       },
       "72": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 71
       },
       "88": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 20
       },
       "96": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 20
       },
       "104": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 20
       },
       "112": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 20
       },
       "120": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 20
       },
       "128": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 20
       },
       "136": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 20
       },
       "152": {
-        "filename": "../contracts/numSequence.tsol",
+        "filename": "../contracts/NumSequence.tsol",
         "line": 20
       },
       "160": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 85
       },
       "176": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 88
       },
       "184": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 89
       },
       "200": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 92
       }
     },
@@ -1068,405 +1068,405 @@
     },
     "a200ad845bda73d141ede2cb6f3f651e960cf07f360af64a283d59c5fa37eb2c": {
       "0": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 435
       },
       "8": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 436
       },
       "56": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 437
       },
       "64": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 438
       },
       "80": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 441
       },
       "88": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 442
       },
       "136": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 443
       },
       "144": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 444
       },
       "160": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 447
       },
       "168": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 448
       },
       "216": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 449
       },
       "224": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 450
       },
       "240": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 453
       },
       "248": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 454
       },
       "296": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 455
       },
       "304": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 456
       }
     },
     "c0a93971a99cc035867d41d5d300fb0336d69c7c3bd4014f06bf6b1971521cbc": {
       "0": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 391
       },
       "8": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 392
       },
       "16": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 393
       },
       "32": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 396
       },
       "48": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 397
       },
       "56": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 398
       },
       "72": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 399
       },
       "232": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 400
       },
       "240": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 401
       },
       "248": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 402
       },
       "256": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 403
       },
       "272": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 404
       },
       "280": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 405
       },
       "296": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 406
       },
       "312": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 407
       },
       "320": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 408
       },
       "328": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 409
       },
       "344": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 411
       },
       "352": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 412
       }
     },
     "e231c77fa1da6c10bf45bf891726c4121b36d3cdd8281f4a057484974e161441": {
       "0": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 305
       },
       "16": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 306
       },
       "24": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 307
       },
       "40": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 308
       },
       "56": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 309
       },
       "72": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 310
       },
       "80": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 311
       },
       "88": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 312
       },
       "112": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 313
       },
       "136": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 314
       },
       "144": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 315
       },
       "152": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 316
       },
       "168": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 317
       },
       "184": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 321
       },
       "192": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 322
       },
       "216": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 323
       },
       "232": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 324
       },
       "240": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 325
       },
       "256": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 329
       },
       "264": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 330
       },
       "280": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 333
       }
     },
     "e44440b95b9975ed2a085029ca15d1f3b2034f9918ce8f994853a5d30d109ef1": {
       "0": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 224
       },
       "16": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 225
       },
       "24": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 226
       },
       "40": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 227
       },
       "56": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 228
       },
       "72": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 229
       },
       "80": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 230
       },
       "96": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 231
       },
       "112": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 232
       },
       "120": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 233
       },
       "136": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 234
       },
       "144": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 235
       },
       "160": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 236
       },
       "168": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 237
       },
       "184": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 238
       },
       "200": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 239
       },
       "216": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 240
       }
     },
     "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
       "0": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 318
       },
       "16": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 319
       }
     },
     "fede7e8a8de9936215f2c319c9fcaf002bf9c60561d1ab62d506a31a10fc94c3": {
       "0": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 243
       },
       "16": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 244
       },
       "24": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 245
       },
       "40": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 246
       },
       "56": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 247
       },
       "72": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 248
       },
       "80": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 249
       },
       "96": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 250
       },
       "104": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 251
       },
       "120": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 252
       },
       "128": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 253
       },
       "136": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 254
       },
       "152": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 255
       },
       "160": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 256
       },
       "176": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 257
       },
       "192": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 258
       },
       "208": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 259
       },
       "224": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 260
       },
       "240": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 261
       },
       "264": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 262
       },
       "280": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 263
       },
       "288": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 264
       },
       "304": {
-        "filename": "numSequence.code",
+        "filename": "NumSequence.code",
         "line": 266
       }
     }

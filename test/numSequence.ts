@@ -15,7 +15,7 @@ describe("Test Sample contract", async function () {
     it("Deploy contract", async function () {
       const INIT_STATE = 0;
       const { contract } = await locklift.factory.deployContract({
-        contract: "numSequence",
+        contract: "NumSequence",
         publicKey: signer.publicKey,
         initParams: {},
         constructorParams: {

@@ -6,7 +6,7 @@ pragma AbiHeader pubkey;
 contract NumSequence {
     uint8[] public arr;
     uint16 public sum;
-    event complete(uint8[] arr);
+    event Complete(uint8[] arr);
 
     constructor(uint8 len) public {
         tvm.accept();
@@ -39,6 +39,6 @@ contract NumSequence {
         }
 
         //성공하면 event emit
-        emit complete(arr);
+        emit Complete(arr);
     }
 }

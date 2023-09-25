@@ -40,7 +40,7 @@
 	],
 	"events": [
 		{
-			"name": "complete",
+			"name": "Complete",
 			"inputs": [
 				{"name":"arr","type":"uint8[]"}
 			],
